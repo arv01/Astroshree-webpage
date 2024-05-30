@@ -1,0 +1,97 @@
+/* components/Header.module.css */
+
+/* Style the header */
+.header {
+    background-color: #ffdeb7; /* Background color of the header */
+    padding: 20px; /* Add padding to the header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+    justify-content: space-between; /* Space items evenly */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow to the header */
+  }
+  
+  /* Style the logo */
+  .logo img {
+    width: 110px; /* Set the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Style the navigation */
+  .nav ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .nav ul li {
+    margin-right: 20px; /* Add space between navigation items */
+  }
+  
+  .nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation item */
+  }
+  
+  .nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set text color */
+    transition: color 0.3s ease; /* Add smooth color transition */
+  }
+  
+  .nav ul li a:hover {
+    color: #007bff; /* Change text color on hover */
+  }
+  
+  /* Style the dropdown */
+  .nav ul ul {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position dropdown absolutely */
+    background-color: #fff; /* Background color of the dropdown */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow to the dropdown */
+    z-index: 1; /* Ensure dropdown appears above other elements */
+  }
+  
+  .nav ul li:hover > ul {
+    display: block; /* Show dropdown on hover */
+  }
+  
+  .nav ul ul li {
+    width: 200px; /* Set width of dropdown items */
+    padding: 10px; /* Add padding to dropdown items */
+  }
+  
+  .nav ul ul li a {
+    color: #333; /* Set text color of dropdown items */
+  }
+  
+  .nav ul ul li a:hover {
+    color: #007bff; /* Change text color of dropdown items on hover */
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column; /* Stack items vertically */
+      padding: 10px; /* Reduce padding */
+    }
+  
+    .logo {
+      margin-bottom: 20px; /* Add space between logo and navigation */
+    }
+  
+    .nav ul {
+      flex-direction: column; /* Stack navigation items vertically */
+      align-items: center; /* Center align navigation items */
+      text-align: center; /* Center align text */
+    }
+  
+    .nav ul li {
+      margin: 10px 0; /* Add space between navigation items */
+    }
+  
+    .nav ul ul {
+      position: static; /* Remove absolute positioning */
+      display: none; /* Hide dropdown by default */
+    }
+  }
+  

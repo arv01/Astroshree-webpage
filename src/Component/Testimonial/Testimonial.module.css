@@ -1,0 +1,81 @@
+.testimonialSection {
+  
+    background-color: #FFDEB7;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .testimonialContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .testimonialWrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .testimonialSlide {
+    min-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    display: none;
+  }
+  
+  .testimonialSlide.active {
+    opacity: 1;
+    display: block;
+  }
+  
+  .testimonialPrev, .testimonialNext {
+    background-color: #ffffff;
+    border: none;
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .testimonialPrev {
+    left: 10px;
+  }
+  
+  .testimonialNext {
+    right: 80px;
+  }
+  /* Style the testimonial content */
+.testimonialSlide p {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+  }
+  
+  /* Style the active testimonial slide */
+  .testimonialSlide.active p {
+    font-family: Arial, sans-serif; /* Example font-family */
+  }
+
+  .testimonialSection h2 {
+    font-family: Arial, sans-serif; /* Example font-family */
+    color: #333; /* Example color */
+    font-size: 24px; /* Example font size */
+    margin-bottom: 20px; /* Example margin bottom */
+  }
+
+  .testimonialauthor {
+    font-weight: bold; /* Make the author name bold */
+    margin-top: 10px; /* Add some space above the author name */
+    color: #333; /* Adjust the color as needed */
+  }

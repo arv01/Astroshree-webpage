@@ -1,0 +1,22 @@
+/* Global Styles for h1 and p Tags */
+.section {
+    text-align: left; /* Center-align text */
+    margin-left: 50;
+    margin-right: 50;
+     /* Add padding */
+}
+
+.section h1 {
+    font-family: Arial, sans-serif; /* Improve font family */
+    font-size: 34px; /* Increase font size */
+    font-weight: bold; /* Make the heading bold */
+    color: #333; /* Change text color */
+    margin-bottom: 0px; /* Add some bottom margin for spacing */
+}
+
+.section p {
+    font-family: Arial, sans-serif; /* Improve font family */
+    font-size: 16px; /* Increase font size */
+    color: #000; /* Change text color */
+    margin: 0; /* Remove default margins */
+}
