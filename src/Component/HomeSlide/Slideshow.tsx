@@ -3,9 +3,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import styles from './Slideshow.module.css'; // Ensure this file exists for styling
-import Slide1 from "@/assets/banner1.svg";
-import Slide2 from '@/assets/banner2.svg';
-import Slide3 from '@/assets/banner3.svg';
+import Slide1 from "../../../public/Assets/banner1.svg";
+import Slide2 from '../../../public/Assets/banner2.svg';
+import Slide3 from '../../../public/Assets/banner3.svg';
 
 const Slideshow: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

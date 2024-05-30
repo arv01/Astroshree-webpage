@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import logo from "../../Assets/logo.svg";
+import logo from "../../../public/Assets/logo.svg";
 import styles from './Header.module.css';
 
 const Header = () => {

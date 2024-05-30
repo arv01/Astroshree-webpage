@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './Blogs.module.css';
-import Slide1 from "@/assets/banner1.svg";
+import Slide1 from "../../../public/Assets/banner1.svg";
 
 const blogPostsData = [
   { image: Slide1, date: '2024-05-21', description: 'Discover the latest astrological insights for this week.' },

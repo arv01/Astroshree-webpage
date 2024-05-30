@@ -3,11 +3,11 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './ServiceLayout.module.css';
-import LiveIcon from "@/assets/service/Live.svg";
-import PanchangIcon from '@/assets/service/Panchang.svg';
-import KundliIcon from '@/assets/service/Kundli.svg';
-import BlogIcon from '@/assets/service/Blog.svg';
-import HoroscopeIcon from '@/assets/service/Horoscope.svg';
+import LiveIcon from "../../../public/assets/service/Live.svg";
+import PanchangIcon from '../../../public/Assets/service/Panchang.svg';
+import KundliIcon from '../../../public/Assets/service/Kundli.svg';
+import BlogIcon from '../../../public/Assets/service/Blog.svg';
+import HoroscopeIcon from '../../../public/Assets/service/Horoscope.svg';
 
 const services = [
   {
