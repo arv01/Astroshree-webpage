@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FAEEE0; /* Set body color */
+            min-height: 100vh; /* Ensure body takes up at least the full viewport height */
+            position: relative; /* Required for footer positioning */
+        }
+       header {
+        background-color: #FFDEB7; /* Set header color */
+        padding: 15px 20px; /* Adjusted padding for top, bottom, left, and right */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        z-index: 1000; /* Ensure the header is above other content */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Fine-tuned elevation effect */
+        border-bottom-left-radius: 50px; /* Add curve to bottom-left corner */
+        border-bottom-right-radius: 50px; /* Add curve to bottom-right corner */
+    }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        section {
+            padding-left: 60px; /* Add padding */
+            padding-top: 10px; /* Add padding */
+            padding-bottom: 10px; /* Add padding */
+            text-align: left; /* Center align text */
+        }
+
+        section h1 {
+            margin: 0;
+            padding: 1px 0;
+        }
+
+        section p {
+            margin: 0;
+            padding: 1px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            position: relative;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            transition: color 0.3s; /* Add transition effect for color change */
+        }
+        nav ul li:hover a {
+            color: #8C64B4; /* Change color on hover */
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            z-index: 1; /* Ensure submenu appears above other content */
+            padding: 0;
+            width: 300px; /* Set width of submenu */
+            flex-direction: column; /* Display submenu items vertically */
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        nav ul li ul li {
+            margin: 0;
+            padding: 10px 20px; /* Add padding to submenu items */
+            border-bottom: 1px solid #ccc; /* Add border between submenu items */
+        }
+        nav ul li ul li:last-child {
+            border-bottom: none; /* Remove border from last submenu item */
+        }
+        /* Default color for submenu items */
+        nav ul li ul li a {
+            color: #000; /* Set default color of submenu items to black */
+        }
+
+        /* Change color of submenu items on hover */
+        nav ul li ul li:hover a {
+            color: #8C64B4; /* Change color of submenu items to #8C64B4 on hover */
+        }
+
+        
+        .slideshow-container {
+            position: relative;
+            max-width: calc(100% - 60px);
+            overflow: hidden;
+            height: 200px;
+            margin: 20px auto;
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease;
+            height: 100%;
+        }
+
+        .slide {
+            flex: 0 0 33.33%; /* Each slide takes 1/3 of the container width */
+            height: 100%;
+            overflow: hidden;
+            padding: 0 5px; /* Add padding between slides */
+            border-radius: 20px; /* Curved border */
+            overflow: hidden;
+            object-fit: contain;
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px; /* Curved border */
+        }
+
+        /* Navigation buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+        }
+        /*====================*/
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            margin-left: 40px;
+            margin-right: 40px;
+            padding: 10px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            justify-items: center;
+        }
+
+        .service-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .service-card h2 {
+            color: #333;
+        }
+
+        .service-card p {
+            color: #666;
+        }
+
+        .service-card button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .service-card button:hover {
+            background-color: #0056b3;
+        }
+
+  <!-- Blog Section -->
+<section class="blog-section">
+    <h2>Latest from Astroshree Blog</h2>
+    <p>Read our latest updates and news on the blog</p>
+    <div id="blog-posts-container" class="blog-posts-container"></div>
+</section>
+
+/* Blog Section */
+.blog-section {
+    padding: 20px;
+    background-color: #FFDEB7;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blog-section h2 {
+    margin-bottom: 10px;
+}
+
+.blog-section p {
+    margin-top: 0;
+}
+
+.blog-posts-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding: 10px;
+    scrollbar-width: none; /* For Firefox */
+}
+
+.blog-posts-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.blog-post {
+    flex: 0 0 auto;
+    width: 250px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+
+.blog-post img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.blog-post .date {
+    font-size: 0.9em;
+    color: #555;
+    margin: 10px;
+}
+
+.blog-post .description {
+    font-size: 1em;
+    color: #333;
+    margin: 10px;
+    text-align: left;
+}
+
+
+  /* Testimonial Section */
+        .testimonial-section {
+            padding: 20px;
+            background-color: #FFDEB7;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .testimonial-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .testimonial-wrapper {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
+
+        .testimonial-slide {
+            min-width: 100%;
+            transition: opacity 0.5s ease-in-out;
+            opacity: 0;
+            display: none; /* Initially hidden */
+        }
+
+        .testimonial-slide.active {
+            opacity: 1;
+            display: block; /* Show active slide */
+        }
+
+        .testimonial-prev, .testimonial-next {
+            background-color: #ffffff;
+            border: none;
+            color: #333;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 10px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+
+        .testimonial-prev {
+            left: 10px;
+        }
+
+        .testimonial-next {
+            right: 10px;
+        }
+
+
+
+
+        .faq-section:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%; /* Start from the middle */
+            transform: translateX(-50%); /* Move left to center */
+            width: 200%; /* Extend width for diamond shape */
+            height: 100%; /* Full height */
+            background-color: #FFDEB7; /* Background color */
+            z-index: -1; /* Behind text */
+            border-radius: 50%; /* Make circle */
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /* Create diamond shape */
+        }
+
+        .faq-text {
+            position: relative; /* To bring it above the shape */
+            z-index: 1; /* Above the shape */
+        }
+
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+
+   .faq-item {
+            margin-bottom: 20px;
+        }
+        .question {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+        .answer {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f0f0f0; /* Default background color */
+            transition: background-color 0.3s ease;
+        }
+        .chevron::after {
+            content: "▶";
+            display: inline-block;
+            transform: rotate(90deg);
+            transition: transform 0.3s ease;
+        }
+        .expanded .chevron::after {
+            transform: rotate(-90deg);
+        }
+        .expanded .answer {
+            display: block;
+            background-color: #e5e5e5; /* Updated background color */
+        } 
+
+
+ .faq-section-blog {
+            padding: 20px;
+            background-color: #fff9ed;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center; /* Center align text */
+            position: relative; /* Position for the shape */
+            overflow: hidden; /* Hide overflowing shape */
+        }
+
+ .faq-section-faq {
+            padding: 20px;
+            background-color: #ffffff;
+            margin: 20px;
+            border-radius: 10px;
+            text-align: center; /* Center align text */
+            position: relative; /* Position for the shape */
+            overflow: hidden; /* Hide overflowing shape */
+        }
+
+
+        .footer {
+    background-color: #FFDEB7;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-contact {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.footer-contact h2 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.download-app {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.download-app a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.download-app a:hover {
+    background-color: #0056b3;
+}
+
+        
+       /* Add a media query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+   header {
+        padding: 15px; /* Adjusted padding for smaller screens */
+    }
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .slides {
+        flex-direction: column;
+        align-items: center;
+    }
+    .slide {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-right: 0;
+    }
+    .prev, .next {
+        top: calc(50% - 22px);
+        margin-top: 0;
+    }
+    .services {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .service-card {
+        margin-bottom: 20px;
+    }
+    .testimonial-wrapper {
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/logo.svg" alt="My Website Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/free-kundali">Free Kundali</a></li>
+                <li><a href="/kundali-matching">Kundali Matching</a></li>
+                <li>
+                    <a href="/horoscope">Horoscope <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="/horoscope/todays">Today's Horoscope</a></li>
+                        <li><a href="/horoscope/weekly">Weekly Horoscope</a></li>
+                        <li><a href="/horoscope/monthly">Monthly Horoscope</a></li>
+                        <li><a href="/horoscope/yearly">Yearly Horoscope</a></li>
+                        <li><a href="/horoscope/2024">Horoscope 2024</a></li>
+                        <li><a href="/horoscope/daily">Daily Horoscope</a></li>
+                        <li><a href="/horoscope/tomorrow">Tomorrow's Horoscope</a></li>
+                        <li><a href="/horoscope/yesterday">Yesterday's Horoscope</a></li>
+                    </ul>
+                </li>
+                <li><a href="/chat-with-astrologer">Chat with Astrologer</a></li>
+                <li><a href="/talk-with-astrologer">Talk with Astrologer</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div style="height: 1000px;"> <!-- Placeholder content to simulate page height -->
+       <section>
+        <h1>Namaste Explorer</h1>
+        <p>Welcome & explore the Astrological world of AstroShree</p>
+    </section>
+
+    <div class="slideshow-container">
+        <div class="slides" id="slides-container"></div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="container">
+        <h1>Our Services</h1>
+        <div class="services">
+            <div class="service-card">
+                <div class="service-icon"><img src="/images/live.svg"></i></div>
+                <h2>Astrologer Service</h2>
+                <p>Get personalized horoscope readings and astrological guidance from our expert astrologers.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><img src="/images/panchang.svg"></div>
+                <h2>Daily Panchang</h2>
+                <p>Get daily information on planetary positions, tithi, nakshatra, and more.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><img src="/images/kundli.svg"></div>
+                <h2>Match Making</h2>
+                <p>Find your perfect match with our astrology-based matchmaking service.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><img src="/images/blog.svg"></div>
+                <h2>Numerology</h2>
+                <p>Unlock the secrets of your life path and destiny with numerology predictions.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><img src="/images/Horoscope.svg"></div>
+                <h2>Daily Horoscope</h2>
+                <p>Get daily insights into your zodiac sign's horoscope and planetary influences.</p>
+            </div>
+        </div>
+    </div>
+
+<!-- Blog Section -->
+
+<section class="faq-section-blog">
+    <h2>Latest from Astroshree Blog</h2>
+    <p>Read our latest updates and news on the blog</p>
+    <div id="blog-posts-container" class="blog-posts-container"></div>
+</section>
+
+
+  <!-- Testimonial Section -->
+    <section class="testimonial-section">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-container">
+            <button class="testimonial-prev">&#10094;</button>
+            <div class="testimonial-wrapper">
+                <div class="testimonial-slide active">
+                    <p>"Astroshree has completely transformed my life! The guidance I received was invaluable."</p>
+                    <h3>- John Doe</h3>
+                </div>
+                <div class="testimonial-slide">
+                    <p>"I can't thank the astrologers at Astroshree enough for their accurate and insightful readings."</p>
+                    <h3>- Jane Smith</h3>
+                </div>
+                <div class="testimonial-slide">
+                    <p>"The daily horoscopes are spot on! I start every day by reading them."</p>
+                    <h3>- Mary Johnson</h3>
+                </div>
+                <!-- Add more testimonials as needed -->
+            </div>
+            <button class="testimonial-next">&#10095;</button>
+        </div>
+    </section>
+
+     <section class="main-content">
+        <h1>Unlock Life's Mysteries with Astrology Online: Connect with Top Astrologers Today!</h1>
+        <p>Welcome to AstroShree, your gateway to the cosmos's secrets. Delve into today's horoscope, kundli matching, Aaj ka Rashifal, and Aaj ka Panchang with ease. Our seasoned astrologers are committed to unraveling life's enigmas through the ancient art of astrology. We blend age-old wisdom with cutting-edge technology, offering personalized experiences tailored to your unique needs, including insightful tarot readings.</p>
+        <h2>Engage with Premier Astrologers Online: Your Journey to Clarity and Insight</h2>
+        <p>At AstroShree, we take pride in granting you instant access to a roster of highly skilled astrologers, esteemed in their field. Seamlessly communicate via text, audio, or video chat for personalized consultations. Your privacy is paramount, ensured by our discreet platform designed to safeguard your confidentiality throughout.</p>
+        <h2>Uncover Life's Secrets with Our Astrologers' Expertise</h2>
+        <p>Our adept astrologers specialize in:</p>
+        <ul>
+            <li><strong>Horoscope Insights:</strong> Stay ahead with daily zodiac predictions, guiding you towards informed decisions aligned with cosmic energies.</li>
+            <li><strong>Kundli Matching:</strong> Foster harmonious relationships through thorough kundli analysis, empowering you to navigate your shared future with confidence.</li>
+            <li><strong>Aaj ka Rashifal:</strong> Receive daily Hindi zodiac forecasts, offering invaluable insights into love, career, health, and more.</li>
+            <li><strong>Aaj ka Panchang:</strong> Consult the Hindu calendar for auspicious dates, festivals, and celestial events, optimizing your plans for success.</li>
+            <li><strong>Tarot Revelations:</strong> Tap into the mystic realm of tarot for guidance on matters of the heart, career, and personal growth, expertly interpreted by our tarot readers.</li>
+        </ul>
+        <h2>Embark on Your Astrology Online Voyage with Our Intuitive Chat Tool</h2>
+        <p>To commence your journey with AstroShree's online consultations, follow these simple steps:</p>
+        <ol>
+            <li>Register for a free account to access our roster of expert astrologers.</li>
+            <li>Browse profiles and select the astrologer whose expertise resonates with you.</li>
+            <li>Initiate a chat via our user-friendly tool, available for text, audio, or video consultations.</li>
+        </ol>
+        <h2>Accessible Pricing and Customizable Packages: Quality Astrology at Your Fingertips</h2>
+        <p>Choose from a range of pricing plans and consultation durations to suit your budget and needs. Opt for single sessions or subscribe to discounted packages tailored for regular users and astrology enthusiasts. First-time users can enjoy special offers to experience astrology's power at a fraction of the cost.</p>
+        <h2>Real-Life Transformations through Astrology Online</h2>
+        <p>Explore testimonials and success stories from individuals whose lives have been enriched through AstroShree's services. Our expert astrologers have empowered countless seekers to embrace their destinies with confidence, clarity, and purpose.</p>
+    </section>
+
+
+<section class="faq-section-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <div class="question">
+                <p>What astrology services does AstroShree provide?</p>
+                <button class="chevron"></button>
+            </div>
+            <div class="answer">
+                <p>AstroShree offers a wide range of astrology services rooted in ancient astrological principles. Our expert astrologers provide personalized consultations covering various aspects of life, including love, career, finance, health, and spirituality.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="question">
+                <p>How can I determine auspicious dates using the Hindu calendar?</p>
+                <button class="chevron"></button>
+            </div>
+            <div class="answer">
+                <p>AstroShree's Aaj Ka Panchang provides precise information on auspicious dates, festivals, and planetary positions according to the Hindu calendar. You can consult it for important events, ceremonies, or daily planning.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer">
+    <div class="footer-logo">
+        <h1>AstroShree</h1>
+        <p>AstroShree is your trusted companion in the realm of Indian astrology, offering a diverse array of services tailored to meet your needs. Our proficient astrologers delve deep into the cosmic energies to provide personalized consultations and insightful tarot readings. With a steadfast commitment to guiding individuals towards clarity and purpose, AstroShree illuminates paths across love, career, health, and spirituality. Rooted in the profound wisdom of astrology, we empower our clients to navigate life's complexities with confidence and grace, unlocking the doors to their fullest potential.</p>
+    </div>
+    <div class="footer-links">
+        <div class="footer-section">
+            <h2>Horoscope</h2>
+            <ul>
+                <li><a href="#">Today's Horoscope</a></li>
+                <li><a href="#">Weekly Horoscope</a></li>
+                <li><a href="#">Monthly Horoscope</a></li>
+                <!-- Add more horoscope links as needed -->
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h2>Kundli Matching</h2>
+            <ul>
+                <li><a href="#">Janam Kundli</a></li>
+                <li><a href="#">Kundli Matching</a></li>
+                <!-- Add more Kundli Matching links as needed -->
+            </ul>
+        </div>
+        <!-- Add more sections with respective links -->
+    </div>
+    <div class="footer-contact">
+        <h2>Contact Us</h2>
+        <p>Email: astroshree.live@gmail.com</p>
+        <p>Phone: +91 82877003229</p>
+        
+
+        
+    </div>
+</footer>
+
+
+   
+    <script>
+        var slidesData = ['/images/banner3.svg', '/images/banner1.svg', '/images/banner2.svg','/images/banner3.svg', '/images/banner1.svg', '/images/banner2.svg'];
+        
+        var slidesContainer = document.getElementById('slides-container');
+
+        slidesData.forEach(src => {
+            var slideDiv = document.createElement('div');
+            slideDiv.className = 'slide';
+            var img = document.createElement('img');
+            img.src = src;
+            slideDiv.appendChild(img);
+            slidesContainer.appendChild(slideDiv);
+        });
+
+        var slideIndex = 0;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var slides = document.querySelectorAll('.slide');
+            var totalSlides = Math.ceil(slides.length / 3);
+            if (n >= totalSlides) { slideIndex = 0; }
+            if (n < 0) { slideIndex = totalSlides - 1; }
+            slidesContainer.style.transform = `translateX(${-slideIndex * 100}%)`;
+        }
+
+        var blogPostsData = [
+            {image: '/images/banner3.svg', date: '2024-05-21', description: 'Discover the latest astrological insights for this week.'},
+            {image: '/images/banner3.svg', date: '2024-05-20', description: 'Understanding the impact of planetary movements on your life.'},
+            {image: '/images/banner3.svg', date: '2024-05-19', description: 'Top 5 ways to balance your chakras using astrology.'},
+            {image: '/images/banner3.svg', date: '2024-05-19', description: 'Top 5 ways to balance your chakras using astrology.'},
+            {image: '/images/banner3.svg', date: '2024-05-19', description: 'Top 5 ways to balance your chakras using astrology.'},
+            {image: '/images/banner3.svg', date: '2024-05-19', description: 'Top 5 ways to balance your chakras using astrology.'}
+        ];
+
+        var blogPostsContainer = document.getElementById('blog-posts-container');
+
+        blogPostsData.forEach(post => {
+            var blogPostDiv = document.createElement('div');
+            blogPostDiv.className = 'blog-post';
+            
+            var img = document.createElement('img');
+            img.src = post.image;
+            
+            var date = document.createElement('div');
+            date.className = 'date';
+            date.textContent = post.date;
+            
+            var description = document.createElement('div');
+            description.className = 'description';
+            description.textContent = post.description;
+            
+            blogPostDiv.appendChild(img);
+            blogPostDiv.appendChild(date);
+            blogPostDiv.appendChild(description);
+            
+            blogPostsContainer.appendChild(blogPostDiv);
+        });
+
+
+
+
+    </script>
+
+       <script>
+        // JavaScript for testimonial carousel
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.testimonial-slide');
+        const totalSlides = slides.length;
+
+        document.querySelector('.testimonial-next').addEventListener('click', () => {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        });
+
+        document.querySelector('.testimonial-prev').addEventListener('click', () => {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        });
+
+        // Set the first slide to active
+        slides[currentSlide].classList.add('active');
+    </script>
+
+     <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questions = document.querySelectorAll('.question');
+            
+            questions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    this.classList.toggle('expanded');
+                    answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
