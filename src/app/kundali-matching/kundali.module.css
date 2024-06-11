@@ -1,0 +1,131 @@
+/* General body styles */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+   
+  }
+  
+  /* Form container styles */
+  .formContainer {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 40px;
+    width: 100%; /* Increased width */
+    max-width: 1600px; /* Increased max width */
+  }
+  
+  /* Form title styles */
+  .formTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Kundali form styles */
+  .kundaliForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Horizontal forms styles */
+  .horizontalForms {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Single form styles */
+  .singleForm {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    min-width: 50%; /* Ensure forms have a reasonable minimum width */
+  }
+  
+  /* Title styles for boy's and girl's details */
+  .detailTitle {
+    background-color: yellow;
+    border-radius: 100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto 20px;
+  }
+  
+  /* Form group styles */
+  .formGroup {
+    margin-bottom: 16px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .formGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .formGroup input,
+  .formGroup select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  /* Birth details and birth time styles */
+  .birthDetails,
+  .birthTime {
+    display: flex;
+    gap: 8px;
+  }
+  
+  /* Additional styles for birth details and birth time for alignment */
+  .birthDetails .formGroup,
+  .birthTime .formGroup {
+    flex: 1; /* Allow input fields to grow and fill the available space */
+  }
+  
+  /* Submit button styles */
+  .submitButton {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 100%; /* Set button width to 100% */
+  }
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .horizontalForms {
+      flex-direction: column;
+    }
+  
+    .singleForm {
+      width: 100%;
+      margin-bottom: 20px; /* Add some margin at the bottom for spacing */
+    }
+  }
+  

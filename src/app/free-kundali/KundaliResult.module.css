@@ -1,0 +1,43 @@
+    /* KundaliResult.module.css */
+
+.kundaliResult {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .kundaliDetails {
+    margin-bottom: 20px;
+  }
+  
+  .kundaliDetails h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .kundaliDetails table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .kundaliDetails table td {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .kundaliDetails table td:first-child {
+    font-weight: bold;
+    color: #333;
+    width: 50%;
+  }
+  
+  .kundaliDetails table td:last-child {
+    color: #666;
+    text-align: right;
+  }
+  

@@ -12,22 +12,22 @@ import HoroscopeIcon from '../../../public/Assets/Horoscope.svg';
 const services = [
   {
     icon: LiveIcon,
-    title: 'Astrologer Service',
+    title: 'Daily Panchang',
     description: 'Get personalized horoscope readings and astrological guidance from our expert astrologers.'
   },
   {
     icon: PanchangIcon,
-    title: 'Daily Panchang',
+    title: 'Numerology',
     description: 'Get daily information on planetary positions, tithi, nakshatra, and more.'
   },
   {
     icon: KundliIcon,
-    title: 'Match Making',
+    title: 'Matchmaking',
     description: 'Find your perfect match with our astrology-based matchmaking service.'
   },
   {
     icon: BlogIcon,
-    title: 'Numerology',
+    title: 'Tarot Reading',
     description: 'Unlock the secrets of your life path and destiny with numerology predictions.'
   },
   {

@@ -1,0 +1,196 @@
+/* General body styles */
+.body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    min-height: 100vh;
+  }
+  
+  .main {
+    text-align: center; /* Center text within the main content */
+  }
+  
+  .main h1 {
+    font-family: Arial, sans-serif;
+    justify-content: left;
+    font-weight: bold;
+  }
+  .main p {
+    margin-bottom: 20px; /* Add some spacing between elements */
+  }
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .line {
+    width: 100%; /* Set the width to cover the entire width of the container */
+    height: 1px; /* Adjust the height of the line */
+    background-color: black; /* Adjust the color of the line */
+    /* Adjust the spacing between the line and the logo */
+  }
+  
+  /* Form container styles */
+  .formContainer {
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 80px;
+  }
+  
+  /* Form title styles */
+  .formTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Kundali form styles */
+  .kundaliForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group styles */
+  .formGroup {
+    margin-bottom: 16px;
+  }
+  
+  .formGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .formGroup input,
+  .formGroup select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  /* Birth details and birth time styles */
+  .birthDetails,
+  .birthTime {
+    display: flex;
+    gap: 8px;
+  }
+  
+  /* Additional styles for birth details and birth time for alignment */
+  .birthDetails .formGroup,
+  .birthTime .formGroup {
+    flex: 1; /* Allow input fields to grow and fill the available space */
+  }
+  
+  /* Submit button styles */
+  .submitButton {
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #45a049;
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-left: 100px; /* Adjust the left margin as needed */
+    margin-right: 100px; /* Adjust the right margin as needed */
+  }
+  
+  /* Heading styles */
+  .heading {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    text-align: center; /* Align the text to the center */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+  }
+  
+  /* Subheading styles */
+  .subheading {
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    text-align: center; /* Align the text to the center */
+    color: #333;
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+  }
+  
+  /* Paragraph styles */
+  .paragraph {
+    font-size: 16px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    margin-bottom: 20px; /* Add some bottom margin for spacing between paragraphs */
+    font-weight: normal; /* Adjust the font weight as needed */
+    text-align: left;
+    font-family: Arial, sans-serif; /* Set the desired font family */
+    color: #333; /* Set the text color */
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 1200px) {
+    .container {
+      margin: 0 150px; /* Adjust margins for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      margin: 0 50px; /* Adjust margins for tablet-sized screens */
+    }
+    
+    .formContainer {
+      padding: 40px; /* Reduce padding for tablet-sized screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container {
+      margin: 0 20px; /* Adjust margins for mobile screens */
+    }
+  
+    .formContainer {
+      padding: 20px; /* Reduce padding for mobile screens */
+    }
+    
+    .formTitle,
+    .heading {
+      font-size: 20px; /* Adjust font size for mobile screens */
+    }
+  
+    .subheading {
+      font-size: 16px; /* Adjust font size for mobile screens */
+    }
+  
+    .paragraph {
+      font-size: 14px; /* Adjust font size for mobile screens */
+    }
+  }
+  
