@@ -53,14 +53,14 @@ const KundaliMatching = () => {
 
     for (let field of boyRequiredFields) {
       if (!boyFormData[field]) {
-        alert(`Please fill in all required fields for the boy's details`);
+        alert(`Please fill in all required fields for the boy&apos;s details`);
         return;
       }
     }
 
     for (let field of girlRequiredFields) {
       if (!girlFormData[field]) {
-        alert(`Please fill in all required fields for the girl's details`);
+        alert(`Please fill in all required fields for the girl&apos;s details`);
         return;
       }
     }
@@ -97,11 +97,11 @@ const KundaliMatching = () => {
   return (
     <div className={styles.body}>
       <div className={styles.formContainer}>
-        <h1 className={styles.formTitle}>Fill Up Partner's Detail</h1>
+        <h1 className={styles.formTitle}>Fill Up Partner&apos;s Detail</h1>
         <form onSubmit={handleSubmit} className={styles.kundaliForm}>
           <div className={styles.horizontalForms}>
             <div className={styles.singleForm}>
-              <div className={styles.detailTitle}>Boy's Details</div>
+              <div className={styles.detailTitle}>Boy&apos;s Details</div>
               <div className={styles.formGroup}>
                 <label htmlFor="boyName">Name*</label>
                 <input
@@ -208,7 +208,7 @@ const KundaliMatching = () => {
               </div>
             </div>
             <div className={styles.singleForm}>
-              <div className={styles.detailTitle}>Girl's Details</div>
+              <div className={styles.detailTitle}>Girl&apos;s Details</div>
               <div className={styles.formGroup}>
                 <label htmlFor="girlName">Name*</label>
                 <input

@@ -8,14 +8,14 @@ const KundaliMatchingBlog: React.FC = () => {
     <div className={styles.container}>
       <h1>Kundli Matching: Exploring the Intricacies of Kundli Gun Milan</h1>
       <p>
-        In the sacred union of marriage, Kundli Matching, also known as Kundli Gun Milan, holds immense significance in Hindu astrology. It is a traditional practice wherein the birth charts of the prospective bride and groom are meticulously analyzed to assess their compatibility and suitability for marriage. Let's delve into the depths of Kundli Matching and unravel its profound implications.
+        In the sacred union of marriage, Kundli Matching, also known as Kundli Gun Milan, holds immense significance in Hindu astrology. It is a traditional practice wherein the birth charts of the prospective bride and groom are meticulously analyzed to assess their compatibility and suitability for marriage. Let&apos;s delve into the depths of Kundli Matching and unravel its profound implications.
       </p>
       <h2>Understanding Kundli Matching:</h2>
       
       <ol>
         <li><strong>Essence of Compatibility:</strong> Kundli Matching revolves around the belief that celestial bodies influence human lives and relationships. By scrutinizing the planetary positions at the time of birth, astrologers evaluate various aspects of compatibility between the individuals.</li>
         <br></br>
-        <li><strong>The Gunas (Qualities):</strong> Kundli Gun Milan assesses compatibility based on Ashtakoot or Guna Milan, which comprises eight parameters or "gunas." Each guna signifies different aspects of life, such as personality traits, mental compatibility, emotional harmony, and progeny.</li>
+        <li><strong>The Gunas (Qualities):</strong> Kundli Gun Milan assesses compatibility based on Ashtakoot or Guna Milan, which comprises eight parameters or &quot;gunas.&quot; Each guna signifies different aspects of life, such as personality traits, mental compatibility, emotional harmony, and progeny.</li>
         <br></br>
         <li><strong>Ashtakoot Milan Parameters:</strong> 
           <ul>

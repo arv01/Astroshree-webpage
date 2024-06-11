@@ -9,9 +9,11 @@ import { useRouter } from 'next/navigation';
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const router = useRouter();
+
   const handleLogoClick = () => {
     router.push('/');
   };
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 500) {
@@ -24,13 +26,8 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
-
-    
-
     };
   }, []);
-
-  
 
   return (
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
@@ -46,14 +43,14 @@ const Header = () => {
           <li>
             <a href="/horoscope">Horoscope <i className="fas fa-caret-down"></i></a>
             <ul>
-              <li><a href="/horoscope/todays">Today's Horoscope</a></li>
+              <li><a href="/horoscope/todays">Today&apos;s Horoscope</a></li>
               <li><a href="/horoscope/weekly">Weekly Horoscope</a></li>
               <li><a href="/horoscope/monthly">Monthly Horoscope</a></li>
               <li><a href="/horoscope/yearly">Yearly Horoscope</a></li>
               <li><a href="/horoscope/2024">Horoscope 2024</a></li>
               <li><a href="/horoscope/daily">Daily Horoscope</a></li>
-              <li><a href="/horoscope/tomorrow">Tomorrow's Horoscope</a></li>
-              <li><a href="/horoscope/yesterday">Yesterday's Horoscope</a></li>
+              <li><a href="/horoscope/tomorrow">Tomorrow&apos;s Horoscope</a></li>
+              <li><a href="/horoscope/yesterday">Yesterday&apos;s Horoscope</a></li>
             </ul>
           </li>
           <li><a href="/chat-with-astrologer">Chat with Astrologer</a></li>

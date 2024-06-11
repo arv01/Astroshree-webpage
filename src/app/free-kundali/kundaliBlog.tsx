@@ -10,11 +10,11 @@ const KundaliBlog: React.FC = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Online Free Kundli for Future Predictions</h1>
         <p className={styles.paragraph}>
-          In the realm of astrology, a Kundli, also known as a birth chart or natal chart, is a powerful tool that offers insights into an individual's life. It maps the positions of celestial bodies at the exact moment of one's birth, laying the foundation for predictions about various aspects of life, including career, love, health, and personal growth. With the advent of technology, obtaining a detailed and accurate Kundli has become easier than ever. Online Free Kundli services have revolutionized the way we access this ancient wisdom, making it available to anyone with an internet connection.
+          In the realm of astrology, a Kundli, also known as a birth chart or natal chart, is a powerful tool that offers insights into an individual&apos;s life. It maps the positions of celestial bodies at the exact moment of one&apos;s birth, laying the foundation for predictions about various aspects of life, including career, love, health, and personal growth. With the advent of technology, obtaining a detailed and accurate Kundli has become easier than ever. Online Free Kundli services have revolutionized the way we access this ancient wisdom, making it available to anyone with an internet connection.
         </p>
         <h2 className={styles.subtitle}>What is a Kundli?</h2>
         <p className={styles.paragraph}>
-          A Kundli is a detailed chart that represents the position of planets, the sun, and the moon at the time of one's birth. It is divided into 12 houses, each signifying different aspects of life such as wealth, health, marriage, and career. The interpretation of these positions provides a deep understanding of an individual's strengths, weaknesses, opportunities, and potential challenges.
+          A Kundli is a detailed chart that represents the position of planets, the sun, and the moon at the time of one&apos;s birth. It is divided into 12 houses, each signifying different aspects of life such as wealth, health, marriage, and career. The interpretation of these positions provides a deep understanding of an individual&apos;s strengths, weaknesses, opportunities, and potential challenges.
         </p>
         <h2 className={styles.subtitle}>How Does Online Free Kundli Work?</h2>
         <p className={styles.paragraph}>
@@ -26,7 +26,7 @@ const KundaliBlog: React.FC = () => {
           <li>Accurate Predictions: Modern online tools use sophisticated algorithms that ensure accuracy in calculations. This precision allows for reliable predictions and insights.</li>
           <li>Cost-Effective: As the name suggests, these services are typically free, making them an excellent option for those seeking astrological guidance without spending a fortune.</li>
           <li>Detailed Insights: Online Free Kundli services often provide comprehensive reports that cover various aspects of life, helping individuals make informed decisions about their future.</li>
-          <li>Personalized Guidance: Many online services also offer personalized astrological advice based on your Kundli, helping you navigate life's challenges and opportunities with confidence.</li>
+          <li>Personalized Guidance: Many online services also offer personalized astrological advice based on your Kundli, helping you navigate life&apos;s challenges and opportunities with confidence.</li>
         </ul>
         <h2 className={styles.subtitle}>How Can a Kundli Help in Future Predictions?</h2>
         <p className={styles.paragraph}>
@@ -40,7 +40,7 @@ const KundaliBlog: React.FC = () => {
         </ul>
         <h2 className={styles.subtitle}>Conclusion</h2>
         <p className={styles.paragraph}>
-          The power of a Kundli lies in its ability to provide deep, personalized insights into various aspects of life. With Online Free Kundli services, this ancient wisdom is now more accessible than ever. Whether you're seeking guidance on your career, relationships, or personal growth, an online Kundli can be an invaluable tool in helping you navigate your future with confidence and clarity.
+          The power of a Kundli lies in its ability to provide deep, personalized insights into various aspects of life. With Online Free Kundli services, this ancient wisdom is now more accessible than ever. Whether you&apos;re seeking guidance on your career, relationships, or personal growth, an online Kundli can be an invaluable tool in helping you navigate your future with confidence and clarity.
         </p>
         <p className={styles.paragraph}>
           Explore the potential of your birth chart today with an Online Free Kundli and unlock the secrets to a brighter, more informed future.
