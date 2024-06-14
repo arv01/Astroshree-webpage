@@ -1,0 +1,55 @@
+/* case3.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .image {
+    display: block;
+    margin: 1.5rem auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 0.5rem;
+    }
+  
+    .h1 {
+      font-size: 2.5rem;
+    }
+  
+    .h2 {
+      font-size: 1.75rem;
+    }
+  
+    .p {
+      font-size: 1rem;
+    }
+  
+    .prose {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .h1 {
+      font-size: 2rem;
+    }
+  
+    .h2 {
+      font-size: 1.5rem;
+    }
+  
+    .p {
+      font-size: 0.875rem;
+    }
+  
+    .prose {
+      font-size: 0.875rem;
+    }
+  }
+  

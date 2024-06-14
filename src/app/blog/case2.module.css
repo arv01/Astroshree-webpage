@@ -1,0 +1,23 @@
+/* case2.module.css */
+
+.container {
+    margin: 0 auto;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  
+  .image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+  
+  .ul li strong {
+    font-weight: bold;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  /* Add additional styles for responsiveness */
+  

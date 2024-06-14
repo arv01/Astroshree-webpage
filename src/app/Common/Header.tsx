@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import logo from "../../../public/Assets/logo.svg";
+import logo from "../../../public/Assets/astroshree.svg";
 import styles from './Header.module.css';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -43,7 +43,7 @@ const Header = () => {
           <li>
             <a href="/horoscope">Horoscope <i className="fas fa-caret-down"></i></a>
             <ul>
-              <li><a href="/horoscope/todays">Today&apos;s Horoscope</a></li>
+              <li><a href="/horoscope/todays-horoscope">Today&apos;s Horoscope</a></li>
               <li><a href="/horoscope/weekly">Weekly Horoscope</a></li>
               <li><a href="/horoscope/monthly">Monthly Horoscope</a></li>
               <li><a href="/horoscope/yearly">Yearly Horoscope</a></li>

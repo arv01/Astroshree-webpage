@@ -1,0 +1,45 @@
+/* src/app/horoscope/[slug]/horoscopePage.module.css */
+.container {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.line {
+  height: 1px;
+  background-color: #ccc;
+  flex: 1;
+}
+
+.leftLine {
+  margin-right: 10px;
+}
+
+.rightLine {
+  margin-left: 10px;
+}
+
+.pageContainer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .pageContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pageContainer {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}

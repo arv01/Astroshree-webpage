@@ -1,6 +1,6 @@
 "use client"
 // pages/kundali.tsx
-import logo from "../../../public/Assets/logo.svg";
+import logo from "../../../public/Assets/astroshree.svg";
 import React from 'react';
 import styles from '../kundali-matching/DetailForm.module.css'; // Make sure the path and filename match
 import Header from '../Common/Header'; 
