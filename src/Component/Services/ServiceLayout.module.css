@@ -1,8 +1,6 @@
 .container {
-    max-width: 100%;
+    max-width: 95%;
     margin: 0 auto;
-    margin-left:50px;
-    margin-right: 50px;
     padding: 0px;
 }
 
@@ -12,64 +10,21 @@
     grid-gap: 20px;
     justify-items: center;
 }
+
 .serviceIcon img {
     width: 50px;
     height: 50px;
     display: block; /* Ensures image is centered */
-   
     object-fit: fill;
-  }
-  .h1 {
+}
+
+.h1 {
     font-size: 32px; /* Adjust the font size as needed */
     font-weight: bold; /* Make the text bold */
     color: #333; /* Set the text color */
     margin-bottom: 20px; /* Add margin at the bottom for spacing */
+    text-align: center; /* Center the heading */
 }
-.serviceCard {
-    flex: 0 0 calc(50% - 20px);
-    margin: 10px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.serviceCard h2 {
-    font-family: Arial, sans-serif;
-    font-size: 1.5rem;
-    margin: 20px 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 2; /* Number of lines to show */
-    -webkit-box-orient: vertical;
-    
-}
-
-.serviceCard p {
-    font-family: Arial, sans-serif;
-    color: #666;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3; /* Number of lines to show */
-    -webkit-box-orient: vertical;
-}
-
-.serviceCard button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
 
 .serviceCard {
     flex: 0 0 calc(50% - 20px);
@@ -122,4 +77,47 @@
 
 .serviceCard button:hover {
     background-color: #0056b3;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .serviceCard {
+        flex: 0 0 calc(100% - 20px);
+        margin: 10px 0;
+    }
+
+    .h1 {
+        font-size: 28px;
+    }
+
+    .serviceCard h2 {
+        font-size: 1.2rem;
+    }
+
+    .serviceCard p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .h1 {
+        font-size: 24px;
+    }
+
+    .serviceCard {
+        padding: 15px;
+    }
+
+    .serviceCard h2 {
+        font-size: 1rem;
+        margin: 15px 0;
+    }
+
+    .serviceCard p {
+        font-size: 0.8rem;
+    }
 }

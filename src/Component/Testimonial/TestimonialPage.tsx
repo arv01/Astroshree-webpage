@@ -5,19 +5,20 @@ const TestimonialPage: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const testimonials = [
     {
-      content: "Astroshree has completely transformed my life! The guidance I received was invaluable.",
-      author: "John Doe"
+      content: "I have great pleasure in thanking to AstroShree team for their accurate prediction. I got a job within the predicted time period. And also his general predictions helped me a lot in different occasions. Once again, I am thankful for your quick reply. Definitely consult you again and again.",
+      author: "Ankit Sharma"
     },
     {
-      content: "I can't thank the astrologers at Astroshree enough for their accurate and insightful readings.",
-      author: "Jane Smith"
+      content: "I am very much pleased with the services offered by AstroShree. They are prompt in replying and has tremendous knowledge to clarify any kind of doubts in Astrology. I am thankful for the great assistance and detailed reading.",
+      author: "Vishal Kumar"
     },
     {
-      content: "The daily horoscopes are spot on! I start every day by reading them.",
-      author: "Mary Johnson"
+      content: "I am immensely grateful to the AstroShree team for their incredibly accurate predictions. Following their guidance, I secured a job exactly within the predicted timeframe. Moreover, their general predictions have proven invaluable to me on numerous occasions. I deeply appreciate their prompt responses and guidance. I will certainly be consulting them again in the future.",
+      author: "Shreya Singh"
     }
     // Add more testimonials as needed
   ];
+
   const nextSlide = () => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % testimonials.length);
   };

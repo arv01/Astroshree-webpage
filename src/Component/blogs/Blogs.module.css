@@ -93,3 +93,11 @@
   opacity: 0; /* Initially hide the thumbs-up icon */
   transition: opacity 0.3s;
 }
+.discountedRate {
+  color: #999999; /* or any light color you prefer */
+  text-decoration: line-through;
+}
+.originalRate {
+  color: #999999; /* or any light color you prefer */
+  text-decoration: line-through;
+}

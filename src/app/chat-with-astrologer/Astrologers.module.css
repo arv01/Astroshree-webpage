@@ -1,0 +1,229 @@
+.container {
+  padding: 20px;
+ 
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.pageContainer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.container {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.filterButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+.filterButton:hover {
+  background-color: #0056b3;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filterInput {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.clearButton, .closeButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.clearButton:hover, .closeButton:hover {
+  background-color: #0056b3;
+}
+
+.astrologersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center the items horizontally */
+}
+
+.astrologerCard {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 5px;
+  width: 500px;
+  transition: transform 0.3s;
+}
+
+.astrologerCard:hover {
+  transform: translateY(-10px);
+}
+
+.profileSection {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0.6;
+}
+
+.rating {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.profileImageContainer {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 110px;
+  height: 110px;
+  border: 4px solid transparent;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.online .profileImageContainer {
+  border-color: green;
+}
+
+.offline .profileImageContainer {
+  border-color: gray;
+}
+
+.busy .profileImageContainer {
+  border-color: red;
+}
+
+.detailsSection {
+  flex: 2;
+  padding-left: 10px;
+}
+
+.name {
+  font-size: 1.5em;
+  margin: 2px 0;
+}
+
+.specialtyIcons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.specialtyIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.specialties,
+.languages,
+.chatButton {
+  margin: 3px 2px;
+}
+
+.chatButton {
+  background-color: #8C64B4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chatButton:hover {
+  background-color: #0056b3;
+}
+.horizontal {
+  display: inline-flex;
+  align-items: right;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.onlineCount {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filterContainer {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.lightTheme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.darkTheme {
+  background-color: #000000;
+  color: #ffffff;
+}
+@media (min-width: 1024px) {
+  .pageContainer {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .pageContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}

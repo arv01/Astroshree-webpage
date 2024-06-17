@@ -5,21 +5,37 @@
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: center; /* Vertically center the content */
-  justify-content: center; /* Horizontally center the content */
+  align-items: center;
+  justify-content: center;
   height: 100vh;
 }
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
 
+.line {
+  height: 1px;
+  background-color: #ccc;
+  flex: 1;
+}
+
+.leftLine {
+  margin-right: 10px;
+}
+
+.rightLine {
+  margin-left: 10px;
+}
 /* Form container styles */
 .formContainer {
   background-color: #ffffff;
   border-radius: 8px;
-  margin-bottom: 10px;
-  margin-top: 0px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin: 0 400px; /* Adjust margins for all screen sizes */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 80px;
+  padding: 40px; /* Reduce padding for all screen sizes */
 }
 
 /* Form title styles */
@@ -65,7 +81,7 @@
 /* Additional styles for birth details and birth time for alignment */
 .birthDetails .formGroup,
 .birthTime .formGroup {
-  flex: 1; /* Allow input fields to grow and fill the available space */
+  flex: 1;
 }
 
 /* Submit button styles */
@@ -89,64 +105,65 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  margin-left: 200px; /* Adjust the left margin as needed */
-  margin-right: 200px; /* Adjust the right margin as needed */
+  margin: 0 20px; /* Adjust margins for all screen sizes */
 }
 
 /* Heading styles */
 .heading {
-  font-size: 24px; /* Adjust the font size as needed */
-  font-weight: bold; /* Adjust the font weight as needed */
-  text-align: center; /* Align the text to the center */
-  margin-bottom: 20px; /* Add some bottom margin for spacing */
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* Subheading styles */
 .subheading {
-  font-size: 18px; /* Adjust the font size as needed */
-  font-weight: bold; /* Adjust the font weight as needed */
-  text-align: center; /* Align the text to the center */
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
   color: #333;
-  margin-bottom: 20px; /* Add some bottom margin for spacing */
+  margin-bottom: 20px;
 }
 
 /* Paragraph styles */
 .paragraph {
-  font-size: 16px; /* Adjust the font size as needed */
-  line-height: 1.6; /* Adjust the line height for better readability */
-  margin-bottom: 20px; /* Add some bottom margin for spacing between paragraphs */
-  font-weight: normal; /* Adjust the font weight as needed */
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-weight: normal;
   text-align: left;
-  font-family: Arial, sans-serif; /* Set the desired font family */
-  color: #333; /* Set the text color */
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 1200px) {
-  .container {
-    margin: 0 150px; /* Adjust margins for smaller screens */
-  }
-}
-
 @media screen and (max-width: 768px) {
-  .container {
-    margin: 0 50px; /* Adjust margins for tablet-sized screens */
-  }
-  
   .formContainer {
-    padding: 40px; /* Reduce padding for tablet-sized screens */
+    margin: 0 20px; 
+    padding: 30px; /* Adjust padding for tablet-sized screens */
+  }
+
+  .formTitle,
+  .heading {
+    font-size: 22px; /* Adjust font size for tablet-sized screens */
+  }
+
+  .subheading {
+    font-size: 16px; /* Adjust font size for tablet-sized screens */
+  }
+
+  .paragraph {
+    font-size: 14px; /* Adjust font size for tablet-sized screens */
   }
 }
 
 @media screen and (max-width: 480px) {
-  .container {
-    margin: 0 20px; /* Adjust margins for mobile screens */
-  }
-
   .formContainer {
+    margin: 0 20px; 
     padding: 20px; /* Reduce padding for mobile screens */
   }
-  
+
   .formTitle,
   .heading {
     font-size: 20px; /* Adjust font size for mobile screens */

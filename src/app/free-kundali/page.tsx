@@ -1,13 +1,13 @@
 "use client";
 // pages/kundali.tsx
-
+import logo from "../../../public/Assets/astroshree.svg";
 import React from 'react';
 import KundaliForm from '../free-kundali/KundaliForm';
 import styles from '../free-kundali/kundali.module.css'; // Make sure the path and filename match
 import Header from '../Common/Header';
 import Footer from '../Common/Footer/Footer';
 import KundaliBlog from '../free-kundali/kundaliBlog';
-
+import Image from 'next/image';
 const KundaliPage = () => {
   return (
     <div>
@@ -18,6 +18,11 @@ const KundaliPage = () => {
           <div className={styles.subheading}>
             Get instant &amp; accurate, Janam Kundli
           </div>
+          <div className={styles.logoContainer}>
+          <div className={`${styles.line} ${styles.leftLine}`}></div>
+          <Image src={logo.src} alt="Astroshree Logo" />
+          <div className={`${styles.line} ${styles.rightLine}`}></div>
+        </div>
           <div>
             <p className={styles.paragraph}>
               Are you searching for a comprehensive analysis of your birth chart? Look no further! At AstroShree, we offer a detailed and accurate Kundli analysis prepared by expert astrologers. Our free Kundli service provides insights into various aspects of your life, including career, love life, marriage, business, and more.

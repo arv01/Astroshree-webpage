@@ -4,12 +4,14 @@
   }
   
   .formGroup {
+    align-items: start;
     margin-bottom: 16px;
   }
   
   .formGroup label {
     display: block;
     font-weight: bold;
+    align-items: start;
     margin-bottom: 8px;
   }
   

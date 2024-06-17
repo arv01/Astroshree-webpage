@@ -44,10 +44,9 @@ const Slideshow: React.FC = () => {
             key={slide.id}
             className={`${styles.slide} ${index === currentSlide ? styles.active : ''}`}
           >
-            <Image src={slide.content.src}  alt={slide.title} className={styles.image} width={800} height={400} />
+            <Image src={slide.content.src} alt={slide.title} className={styles.image} width={800} height={400} />
             <div className={styles.caption}>{slide.title}</div>
           </div>
-          
         ))}
       </div>
       <a className={styles.prev} onClick={() => plusSlides(-1)}>

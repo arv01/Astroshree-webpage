@@ -23,14 +23,14 @@ const BlogCase5: React.FC = () => {
           />
         </div>
         <p className="text-lg text-gray-700 mb-6">
-          Love is a beautiful yet complex emotion that can bring immense joy and sometimes heartache. While some people dive headfirst into romance, others approach it with caution or even fear. Astrology can offer insights into why certain zodiac signs might be more hesitant to fall in love. Here are four zodiac signs that often find themselves wary of love's unpredictable journey.
+          Love is a beautiful yet complex emotion that can bring immense joy and sometimes heartache. While some people dive headfirst into romance, others approach it with caution or even fear. Astrology can offer insights into why certain zodiac signs might be more hesitant to fall in love. Here are four zodiac signs that often find themselves wary of love&apos;s unpredictable journey.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 text-gray-800 uppercase">1. Virgo (August 23 - September 22)</h2>
         <p className="text-lg text-gray-700 mb-4">
-          Virgos are known for their analytical minds and perfectionist tendencies. They often set high standards for themselves and their partners, which can make the idea of falling in love daunting. Fear of imperfection and vulnerability can hold Virgos back. They worry about getting hurt or not meeting their partner's expectations. This meticulous earth sign prefers to take their time, analyzing and ensuring that a relationship is worth the emotional investment before they fully commit.
+          Virgos are known for their analytical minds and perfectionist tendencies. They often set high standards for themselves and their partners, which can make the idea of falling in love daunting. Fear of imperfection and vulnerability can hold Virgos back. They worry about getting hurt or not meeting their partner&apos;s expectations. This meticulous earth sign prefers to take their time, analyzing and ensuring that a relationship is worth the emotional investment before they fully commit.
         </p>
-        <h3 className="text-xl font-bold mb-2 text-gray-700">Why They're Scared:</h3>
+        <h3 className="text-xl font-bold mb-2 text-gray-700">Why They&apos;re Scared:</h3>
         <ul className="list-disc list-inside mb-6">
           <li className="text-lg text-gray-700">Fear of imperfection</li>
           <li className="text-lg text-gray-700">High expectations</li>
@@ -41,7 +41,7 @@ const BlogCase5: React.FC = () => {
         <p className="text-lg text-gray-700 mb-4">
           Scorpios are intense and passionate, but they also guard their hearts fiercely. This water sign feels emotions deeply and is wary of betrayal and loss. Past experiences of hurt and mistrust can make Scorpios hesitant to open up and fall in love again. They fear giving someone the power to hurt them and often build emotional walls to protect themselves.
         </p>
-        <h3 className="text-xl font-bold mb-2 text-gray-700">Why They're Scared:</h3>
+        <h3 className="text-xl font-bold mb-2 text-gray-700">Why They&apos;re Scared:</h3>
         <ul className="list-disc list-inside mb-6">
           <li className="text-lg text-gray-700">Intense emotions</li>
           <li className="text-lg text-gray-700">Fear of betrayal</li>
@@ -52,7 +52,7 @@ const BlogCase5: React.FC = () => {
         <p className="text-lg text-gray-700 mb-4">
           Capricorns are pragmatic and career-oriented. They often prioritize their professional goals and personal ambitions over romantic relationships. Falling in love requires a level of spontaneity and emotional vulnerability that Capricorns might find uncomfortable. They fear that love might distract them from their goals or that their partner might not be supportive of their ambitions.
         </p>
-        <h3 className="text-xl font-bold mb-2 text-gray-700">Why They're Scared:</h3>
+        <h3 className="text-xl font-bold mb-2 text-gray-700">Why They&apos;re Scared:</h3>
         <ul className="list-disc list-inside mb-6">
           <li className="text-lg text-gray-700">Fear of distraction from goals</li>
           <li className="text-lg text-gray-700">Emotional vulnerability</li>
@@ -61,9 +61,9 @@ const BlogCase5: React.FC = () => {
 
         <h2 className="text-2xl font-bold mb-4 text-gray-800 uppercase">4. Aquarius (January 20 - February 18)</h2>
         <p className="text-lg text-gray-700 mb-4">
-          Aquarians value their independence and freedom above all else. This air sign is known for its unconventional thinking and reluctance to conform to societal norms, including traditional relationships. Aquarians fear losing their individuality and freedom in a committed relationship. They are wary of being tied down and often keep emotions at arm's length to protect their sense of self.
+          Aquarians value their independence and freedom above all else. This air sign is known for its unconventional thinking and reluctance to conform to societal norms, including traditional relationships. Aquarians fear losing their individuality and freedom in a committed relationship. They are wary of being tied down and often keep emotions at arm&apos;s length to protect their sense of self.
         </p>
-        <h3 className="text-xl font-bold mb-2 text-gray-700">Why They're Scared:</h3>
+        <h3 className="text-xl font-bold mb-2 text-gray-700">Why They&apos;re Scared:</h3>
         <ul className="list-disc list-inside mb-6">
           <li className="text-lg text-gray-700">Value of independence</li>
           <li className="text-lg text-gray-700">Fear of losing individuality</li>

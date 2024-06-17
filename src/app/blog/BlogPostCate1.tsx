@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../blog/case1.module.css'
-import blog1 from "../../../public/Assets/blog1.svg"; // Adjust the path as necessary
+import blog1 from "../../../public/Assets/blog1.svg"; 
 
 const BlogCase1Post = () => {
   return (
@@ -23,17 +23,17 @@ const BlogCase1Post = () => {
         </div>
         <article className="prose lg:prose-xl mx-auto">
           <section>
-            <h2>Introduction</h2>
-            <p>Manglik Dosh, also known as Mangal Dosha, is a significant astrological condition in Vedic astrology that is believed to influence an individual's life, particularly their marital prospects and relationships. This dosh occurs when Mars (Mangal) is positioned in certain houses of the birth chart. Let's delve deeper into what Manglik Dosh is, how it is formed, and its effects on each zodiac sign.</p>
+            <h1>Introduction</h1>
+            <p>Manglik Dosh, also known as Mangal Dosha, is a significant astrological condition in Vedic astrology that is believed to influence an individual&apos;s life, particularly their marital prospects and relationships. This dosh occurs when Mars (Mangal) is positioned in certain houses of the birth chart. Let&apos;s delve deeper into what Manglik Dosh is, how it is formed, and its effects on each zodiac sign.</p>
           </section>
           
           <section>
-            <h2>What is Manglik Dosh?</h2>
-            <p>Manglik Dosh is formed when Mars is positioned in the 1st, 4th, 7th, 8th, or 12th house of a person's birth chart. Mars is considered a fiery and aggressive planet, and its placement in these houses is believed to cause tension, delays, and challenges in marriage and relationships.</p>
+            <h1>What is Manglik Dosh?</h1>
+            <p>Manglik Dosh is formed when Mars is positioned in the 1st, 4th, 7th, 8th, or 12th house of a person&apos;s birth chart. Mars is considered a fiery and aggressive planet, and its placement in these houses is believed to cause tension, delays, and challenges in marriage and relationships.</p>
           </section>
           
           <section>
-            <h2>General Effects of Manglik Dosh</h2>
+            <h1>General Effects of Manglik Dosh</h1>
             <ul>
               <li><strong>Marital Discord</strong>: Those with Manglik Dosh are believed to face delays in marriage, and once married, they might experience conflicts and misunderstandings with their spouse.</li>
               <li><strong>Health Issues</strong>: It can also cause health problems, especially related to blood and the digestive system.</li>
@@ -43,7 +43,7 @@ const BlogCase1Post = () => {
           </section>
           
           <section>
-            <h2>Manglik Dosh and Its Influence on Each Zodiac Sign</h2>
+            <h1>Manglik Dosh and Its Influence on Each Zodiac Sign</h1>
             <div className="space-y-4">
               {[
                 { sign: "Aries", impact: "Aries, being ruled by Mars, might face amplified effects. Impatience and aggression in relationships are common.", remedies: "Chanting Hanuman Chalisa and observing fasts on Tuesdays can help mitigate the effects." },
@@ -69,12 +69,12 @@ const BlogCase1Post = () => {
           </section>
           
           <section>
-            <h2>Conclusion</h2>
-            <p>While Manglik Dosh can have various adverse effects on an individual's life, it's important to remember that these influences can be mitigated through specific remedies and astrological guidance. Understanding how Mars' placement affects each zodiac sign can help individuals take proactive steps to balance these energies and lead a harmonious life.</p>
+            <h1>Conclusion</h1>
+            <p>While Manglik Dosh can have various adverse effects on an individual&apos;s life, it&apos;s important to remember that these influences can be mitigated through specific remedies and astrological guidance. Understanding how Mars&apos; placement affects each zodiac sign can help individuals take proactive steps to balance these energies and lead a harmonious life.</p>
           </section>
           
           <section>
-            <h2>About the Author</h2>
+            <h1>About the Author</h1>
             <p><strong>by Astroshree</strong> is a seasoned astrologer with over a decade of experience in Vedic astrology. Passionate about helping individuals navigate their astrological paths, Astroshree specializes in relationship astrology and spiritual guidance.</p>
           </section>
         </article>

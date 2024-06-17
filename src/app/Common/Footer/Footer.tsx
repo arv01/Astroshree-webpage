@@ -13,17 +13,20 @@ const Footer = () => {
                 <div className={styles['footer-section']}>
                     <h2>Horoscope</h2>
                     <ul>
-                        <li><a href="#">Today&apos;s Horoscope</a></li>
-                        <li><a href="#">Weekly Horoscope</a></li>
-                        <li><a href="#">Monthly Horoscope</a></li>
+                        <li><a href="/horoscope/todays">Today&apos;s Horoscope</a></li>
+                        <li><a href="/horoscope/weekly">Weekly Horoscope</a></li>
+                        <li><a href="/horoscope/monthly">Monthly Horoscope</a></li>
+                        <li><a href="/horoscope/daily">Daily Horoscope</a></li>
+                        <li><a href="/horoscope/tomorrow">Tomorrow&apos;s Horoscope</a></li>
+                        <li><a href="/horoscope/yesterday">Yesterday&apos;s Horoscope</a></li>
                         {/* Add more horoscope links as needed */}
                     </ul>
                 </div>
                 <div className={styles['footer-section']}>
                     <h2>Kundli Matching</h2>
                     <ul>
-                        <li><a href="#">Janam Kundli</a></li>
-                        <li><a href="#">Kundli Matching</a></li>
+                        <li><a href="/free-kundali">Janam Kundli</a></li>
+                        <li><a href="/kundali-matching">Kundli Matching</a></li>
                         {/* Add more Kundli Matching links as needed */}
                     </ul>
                 </div>

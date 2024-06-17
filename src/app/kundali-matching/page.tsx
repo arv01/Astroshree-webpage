@@ -17,6 +17,7 @@ const KundaliMatchingPage = () => {
     <Header />
     <div className={styles.container}>
     <main className={styles.main}>
+      <br></br>
       <h1>Kundli Matching</h1>
       <p>Find your right one through matchmaking.</p>
       <div className={styles.logoContainer}>
@@ -31,7 +32,7 @@ const KundaliMatchingPage = () => {
       <p>
         So, if you too are the lucky one who is planning to get married, and hence looking for a horoscope matching with someone you have started liking, then Astroshree can help you. The Kundali milan online software on Astroshree has been prepared by the top astrologers of Astroshree. The software caters to the free Kundli milan needs of the individuals and gives you insights; such as the number of guns matching for the girl and the boy, what they are compatible in, what their future would be like if they get married, and so much more. The online gun milan software can save you time and the hassle of going out to look for an astrologer to get the gun milan exercise done. Also, in case you have any doubts about the free kundali milan offered by Astroshree, you can always connect with the astrologers on board and get those doubts sorted for yourself.
       </p>
-      <div style={{ display: 'flex' }}>
+      <div className={styles.container}>
         <KundaliMatching />
       </div>
       
