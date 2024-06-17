@@ -15,16 +15,12 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
-<<<<<<< HEAD
     "@mui/icons-material": "^5.15.20",
     "@mui/material": "^5.15.20",
     "@mui/system": "^5.15.20",
     "axios": "^1.7.2",
     "next": "^14.2.4",
-=======
     "autoprefixer": "^10.4.19",
-    "next": "^14.2.3",
->>>>>>> 4886a0be7a3d6a8b260208493bcbbee8920d10d4
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
