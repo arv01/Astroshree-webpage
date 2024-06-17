@@ -242,7 +242,7 @@ const HoroscopePage = async ({ params }: { params: { type: HoroscopeType } }) =>
           <h1 className="text-4xl font-bold mb-2">{title}</h1>
           <h2 className="text-2xl font-semibold mb-4">{subTitle}</h2>
         </div>
-
+{/* doodododdo */}
         <div className={styles.logoContainer}>
           <div className={`${styles.line} ${styles.leftLine}`}></div>
           <Image src={logo.src} alt="Astroshree Logo" />
