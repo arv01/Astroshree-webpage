@@ -30,7 +30,7 @@ const Header = () => {
       </div>
       <Link href="/" passHref>
         <div className={styles.logo} onClick={handleLogoClick}>
-          <Image src={logo.src} alt="Astroshree Logo" width={110} height={110} />
+          <Image src={logo.src} alt="Astroshree Logo" width={90} height={90} />
         </div>
       </Link>
       
