@@ -9,7 +9,7 @@ import BoysDetailForm from './BoysDetailForm';
 import GirlsDetailForm from './GirlsDetailForm';
 import KundaliMatching from './kundaliMatching';
 import KundaliMatchingBlog from "./KundaliMatchingBlog";
-
+import Image from 'next/image';
 const KundaliMatchingPage = () => {
   return (
 
@@ -22,7 +22,7 @@ const KundaliMatchingPage = () => {
       <p>Find your right one through matchmaking.</p>
       <div className={styles.logoContainer}>
           <div className={`${styles.line} ${styles.leftLine}`}></div>
-          <img src={logo.src} alt="Astroshree Logo" />
+          <Image src={logo.src} alt="Astroshree Logo" />
           <div className={`${styles.line} ${styles.rightLine}`}></div>
         </div>
       <h1>Free Match Making - Kundli Milan &amp; Gun Milan to Check Possibilities of Marriage</h1>
