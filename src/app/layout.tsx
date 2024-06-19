@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
-import icon from '../../public/Assets/social_logo.svg';
+import icon from '../../public/Assets/social_logo.jpg';
 
 const inter = Inter({ subsets: ['latin'] });
 
