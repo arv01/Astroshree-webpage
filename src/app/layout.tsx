@@ -14,7 +14,7 @@ export const metadata = {
     description: 'Unlock personalized astrology insights with Astroshree’s expert astrologers. Explore Kundali matching, horoscope readings, and daily insights for self-discovery and empowerment.',
     type: 'website',
     url: 'https://www.astroshree.live',
-    image: 'https://www.astroshree.live/_next/static/media/astroshree.1456688b.svg', // Update with the correct path to your image
+    image: 'https://www.astroshree.live/_next/static/media/social_logo.1456688b.svg', // Update with the correct path to your image
     site_name: 'Astroshree',
   },
   twitter: {
