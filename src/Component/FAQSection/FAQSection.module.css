@@ -2,80 +2,142 @@
 
 /* Style the FAQ section container */
 .faq-section {
-    padding: 20px;
-    background-color: #ffffff;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-    border-radius: 10px;
-    text-align: left;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* Style each FAQ item */
+.faq-item {
+  margin-bottom: 20px;
+}
+
+/* Style the question text */
+.question {
+  cursor: pointer;
+  position: relative;
+}
+
+/* Style the question text content */
+.question p {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style the answer text */
+.answer {
+  display: none;
+  padding-top: 10px;
+  color: #555;
+}
+
+/* Style the answer text content */
+.answer p {
+  margin: 0;
+}
+
+/* Style the chevron button */
+.chevron {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/* Style the chevron icon */
+.chevron::after {
+  content: '\25B6';
+  font-size: 18px;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+/* Rotate chevron icon when answer is expanded */
+.chevron.expanded::after {
+  transform: rotate(90deg);
+}
+
+/* Show the answer when expanded */
+.answer.active {
+  display: block;
+}
+
+.h2 {
+  font-size: 24px;
+  font-weight: bold; /* Make the text bold */
+  font-family: 'Your Font Family', sans-serif; /* Replace 'Your Font Family' with the desired font family */
+  text-align: center; /* Align the text to the center */
+  /* Add any additional styling here */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .faq-section {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
   }
-  
-  /* Style each FAQ item */
-  .faq-item {
-    margin-bottom: 20px;
-  }
-  
-  /* Style the question text */
-  .question {
-    cursor: pointer;
-    position: relative;
-  }
-  
-  /* Style the question text content */
-  .question p {
-    margin: 0;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  /* Style the answer text */
-  .answer {
-    display: none;
-    padding-top: 10px;
-    color: #555;
-  }
-  
-  /* Style the answer text content */
-  .answer p {
-    margin: 0;
-  }
-  
-  /* Style the chevron button */
+
   .chevron {
-    width: 20px;
-    height: 20px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
   }
-  
-  /* Style the chevron icon */
+
   .chevron::after {
-    content: '\25B6';
-    font-size: 18px;
-    color: #333;
-    transition: transform 0.3s ease;
+    font-size: 16px;
   }
-  
-  /* Rotate chevron icon when answer is expanded */
-  .chevron.expanded::after {
-    transform: rotate(90deg);
+
+  .question p {
+    font-size: 16px;
   }
-  
-  /* Show the answer when expanded */
-  .answer.active {
-    display: block;
+
+  .answer p {
+    font-size: 14px;
   }
+
   .h2 {
-    font-size: 24px;
-    font-weight: bold; /* Make the text bold */
-    font-family: 'Your Font Family', sans-serif; /* Replace 'Your Font Family' with the desired font family */
-    text-align: center; /* Align the text to the center */
-    /* Add any additional styling here */
+    font-size: 20px;
   }
+}
+
+@media (max-width: 480px) {
+  .faq-section {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .chevron {
+    width: 16px;
+    height: 16px;
+  }
+
+  .chevron::after {
+    font-size: 14px;
+  }
+
+  .question p {
+    font-size: 14px;
+  }
+
+  .answer p {
+    font-size: 12px;
+  }
+
+  .h2 {
+    font-size: 18px;
+  }
+}

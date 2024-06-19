@@ -2,91 +2,121 @@
 .footer {
     background-color: #FFDEB7; 
     padding: 20px;
-}
-
-/* Footer Logo */
-.footer-logo {
+  }
+  
+  /* Footer Logo */
+  .footer-logo {
     margin-bottom: 20px;
-}
-
-.footer-logo h1 {
+  }
+  
+  .footer-logo h1 {
     font-size: 28px;
     margin-bottom: 10px;
     color: #000;
     font-weight: bold; /* Add this line to make the text bold */
-}
-
-
-.footer-logo p {
+  }
+  
+  .footer-logo p {
     font-size: 14px;
     color: #000;
-}
-
-/* Footer Links Section */
-.footer-links {
+  }
+  
+  /* Footer Links Section */
+  .footer-links {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-}
-
-.footer-section {
+  }
+  
+  .footer-section {
     flex: 1;
     margin-right: 20px;
-}
-
-.footer-section h2 {
+  }
+  
+  .footer-section h2 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #000;
     font-weight: bold;
-}
-
-.footer-section ul {
+  }
+  
+  .footer-section ul {
     list-style: none;
     padding: 0;
-}
-
-.footer-section ul li {
+  }
+  
+  .footer-section ul li {
     margin-bottom: 5px;
-}
-
-.footer-section ul li a {
+  }
+  
+  .footer-section ul li a {
     text-decoration: none;
     color: #666;
     font-size: 14px;
-}
-
-.footer-section ul li a:hover {
+  }
+  
+  .footer-section ul li a:hover {
     color: #333;
-}
-
-/* Footer Contact Section */
-.footer-contact {
+  }
+  
+  /* Footer Contact Section */
+  .footer-contact {
     margin-bottom: 20px;
     color: #000;
     font-weight: bold;
-}
-
-.footer-contact h2 {
+  }
+  
+  .footer-contact h2 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #333;
-}
-
-.footer-contact p {
+  }
+  
+  .footer-contact p {
     font-size: 14px;
     margin-bottom: 5px;
     color: #666;
-}
-
-/* Media Query for Small Screens */
-@media (max-width: 768px) {
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 768px) {
     .footer-links {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .footer-section {
-        margin-right: 0;
-        margin-bottom: 10px;
+      margin-right: 0;
+      margin-bottom: 10px;
     }
-}
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .footer-logo h1 {
+      font-size: 24px;
+    }
+  
+    .footer-logo p {
+      font-size: 12px;
+    }
+  
+    .footer-section h2 {
+      font-size: 16px;
+    }
+  
+    .footer-section ul li a {
+      font-size: 12px;
+    }
+  
+    .footer-contact h2 {
+      font-size: 16px;
+    }
+  
+    .footer-contact p {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,37 +1,102 @@
 .mainContent {
-    padding: 20px;
-   
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 10px;
-    margin-top: 50px;
-    text-align: left;
-    font-family: Arial, sans-serif;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.mainContent h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.mainContent h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.mainContent p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.mainContent .subheading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.mainContent ul, .mainContent ol {
+  margin-left: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mainContent {
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
   }
-  
+
   .mainContent h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-  }
-  
-  .mainContent h2 {
     font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .mainContent h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .mainContent p {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .mainContent .subheading {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .mainContent ul, .mainContent ol {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainContent {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  .mainContent h1 {
+    font-size: 20px;
     margin-bottom: 10px;
   }
-  
-  .mainContent p {
+
+  .mainContent h2 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
   }
-  
-.mainContent .subheading {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 15px;
+
+  .mainContent p {
+    font-size: 14px;
+    margin-bottom: 10px;
   }
-  
+
+  .mainContent .subheading {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
   .mainContent ul, .mainContent ol {
-    margin-left: 20px;
+    margin-left: 10px;
   }
-  
+}

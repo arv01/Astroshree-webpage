@@ -93,11 +93,82 @@
   opacity: 0; /* Initially hide the thumbs-up icon */
   transition: opacity 0.3s;
 }
+
 .discountedRate {
   color: #999999; /* or any light color you prefer */
   text-decoration: line-through;
 }
+
 .originalRate {
   color: #999999; /* or any light color you prefer */
   text-decoration: line-through;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 768px) {
+  .blogSection {
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .blogSection h2 {
+    font-size: 1.5rem;
+  }
+
+  .blogSection p {
+    font-size: 1rem;
+  }
+
+  .blogPost {
+    width: 300px;
+    margin-right: 10px;
+  }
+
+  .blogPost img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .date, .description {
+    font-size: 0.9em;
+    margin: 5px;
+  }
+
+  .thumbIcon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blogSection {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .blogSection h2 {
+    font-size: 1.2rem;
+  }
+
+  .blogSection p {
+    font-size: 0.9rem;
+  }
+
+  .blogPost {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .blogPost img {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .date, .description {
+    font-size: 0.8em;
+    margin: 5px;
+  }
+
+  .thumbIcon {
+    font-size: 1.2rem;
+  }
 }

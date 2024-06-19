@@ -28,7 +28,8 @@ const TestimonialPage: React.FC = () => {
   };
 
   return (
-    <section className={styles.testimonialSection}>
+    <div className={styles.testimonialSection}>
+      <br></br>
       <h2 className={styles.testimonialauthor}>What Our Clients Say</h2>
       <div className={styles.testimonialContainer}>
         <button className={styles.testimonialPrev} onClick={prevSlide}>&#10094;</button>
@@ -37,12 +38,15 @@ const TestimonialPage: React.FC = () => {
             <div key={index} className={`${styles.testimonialSlide} ${index === currentSlide ? styles.active : ''}`}>
               <p>{testimonial.content}</p>
               <h3 className={styles.testimonialauthor}>- {testimonial.author}</h3>
+              <br></br>
             </div>
           ))}
+          
         </div>
         <button className={styles.testimonialNext} onClick={nextSlide}>&#10095;</button>
+        
       </div>
-    </section>
+    </div>
   );
 };
 
