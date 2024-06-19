@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google';
 import './globals.css';
-import icon from '../../public/Assets/social_logo.svg';
+import icon from '../../public/Assets/social_logo.jpg';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,14 +14,14 @@ export const metadata = {
     description: 'Unlock personalized astrology insights with Astroshree’s expert astrologers. Explore Kundali matching, horoscope readings, and daily insights for self-discovery and empowerment.',
     type: 'website',
     url: 'https://www.astroshree.live',
-    image: 'https://www.astroshree.live/_next/static/media/social_logo.1456688b.svg', // Update with the correct path to your image
+    image: icon.src, // Update with the correct path to your image
     site_name: 'Astroshree',
   },
   twitter: {
     title: "Astroshree - Leading Online Astrologers for Personalized Predictions",
     description: "Unlock personalized astrology insights with Astroshree’s expert astrologers. Explore Kundali matching, horoscope readings, and daily insights for self-discovery and empowerment.",
     card: "summary_large_image",
-    image: 'https://www.astroshree.live/_next/static/media/astroshree.1456688b.svg', // Update with the correct path to your image
+    image: icon.src, // Update with the correct path to your image
     site: "@Astroshree",
   },
   metaTags: [
