@@ -17,10 +17,11 @@ export const metadata = {
     site_name: 'Astroshree',
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Astroshree - The Best Online Astrologers to get predictions',
-    description: 'Unlock the secrets of your destiny with Astroshree, where expert astrologers offer personalized predictions tailored to your life.',
+    title: "Astroshree - The Best Online Astrologers to get predictions",
+    description: "Unlock the secrets of your destiny with Astroshree, where expert astrologers offer personalized predictions tailored to your life.",
+    card: "summary_large_image",
     image: 'https://astroshree.live/_next/static/media/logo.1456688b.svg',
+    site: "@Astroshree",
   },
 };
 
@@ -46,7 +47,7 @@ export default function RootLayout({
         <meta name="twitter:title" content={metadata.twitter.title} />
         <meta name="twitter:description" content={metadata.twitter.description} />
         <meta name="twitter:image" content={metadata.twitter.image} />
-        <link rel="canonical" href="https://www.astroshree.live" />
+        <link rel="canonical" href={metadata.openGraph.url} />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -58,3 +59,4 @@ export default function RootLayout({
     </html>
   );
 }
+
