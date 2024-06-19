@@ -29,12 +29,12 @@ const Header = () => {
         <span className={styles.bar}></span>
       </div>
       <Link href="/" passHref>
-        <div className={styles.logo} onClick={handleLogoClick}>
-          <Image src={logo.src} alt="Astroshree Logo" width={90} height={90} />
+      <div className={styles.logo} onClick={handleLogoClick}>
+          <Image src={logo.src} alt="Astroshree Logo" width={90} height={90} priority={true} />
         </div>
       </Link>
       
-      <nav className={`${styles.nav} ${menuOpen ? styles.open : ''}`}>
+      <nav className={`${styles.nav} ${menuOpen ? styles.open : ''}`} aria-label="Main navigation">
         <ul>
           <li><Link href="/free-kundali">Free Kundali</Link></li>
           <li><Link href="/kundali-matching">Kundali Matching</Link></li>
