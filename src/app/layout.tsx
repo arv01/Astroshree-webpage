@@ -4,25 +4,35 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Astroshree - The Best Online Astrologers to get predictions',
-  description: 'Unlock the secrets of your destiny with Astroshree, where expert astrologers offer personalized predictions tailored to your life. Access a wide range of astrology services conveniently from anywhere, and embark on a journey of self-discovery and empowerment. Trust in Astroshree\'s accuracy and confidentiality to guide you towards a brighter future.',
-  keywords: 'astrology, horoscope, kundali, predictions, astrologers, numerology, matchmaking',
+  title: 'Astroshree - Leading Online Astrologers for Personalized Predictions',
+  description: 'Unlock personalized astrology predictions with Astroshree. Our expert astrologers offer detailed insights for self-discovery and empowerment. Avail a wide range of astrology services including Kundali matching, horoscope readings, and daily insights from anywhere.',
+  keywords: 'Astrology, Horoscope, Astrologer, Online Astrologer, Online Astrology, Kundali Matching, Horoscope Predictions, Free Horoscope, Personalized Astrology, Online Horoscope, Kundali Analysis, Daily Horoscope, Weekly Horoscope, Astrology Consultation',
   author: 'Astroshree',
   openGraph: {
-    title: 'Astroshree - The Best Online Astrologers to get predictions',
-    description: 'Unlock the secrets of your destiny with Astroshree, where expert astrologers offer personalized predictions tailored to your life.',
+    title: 'Astroshree - Leading Online Astrologers for Personalized Predictions',
+    description: 'Unlock personalized astrology insights with Astroshree’s expert astrologers. Explore Kundali matching, horoscope readings, and daily insights for self-discovery and empowerment.',
     type: 'website',
     url: 'https://www.astroshree.live',
     image: 'https://astroshree.live/_next/static/media/logo.1456688b.svg',
     site_name: 'Astroshree',
   },
   twitter: {
-    title: "Astroshree - The Best Online Astrologers to get predictions",
-    description: "Unlock the secrets of your destiny with Astroshree, where expert astrologers offer personalized predictions tailored to your life.",
+    title: "Astroshree - Leading Online Astrologers for Personalized Predictions",
+    description: "Unlock personalized astrology insights with Astroshree’s expert astrologers. Explore Kundali matching, horoscope readings, and daily insights for self-discovery and empowerment.",
     card: "summary_large_image",
     image: 'https://astroshree.live/_next/static/media/logo.1456688b.svg',
     site: "@Astroshree",
   },
+  metaTags: [
+    {
+      name: 'description',
+      content: 'Astroshree offers free horoscope consultations with top astrologers. Explore personalized astrology insights including Kundali matching, horoscope readings, and daily predictions. Empower yourself with detailed astrology predictions and services.',
+    },
+    {
+      name: 'keywords',
+      content: 'Astrology, Horoscope, Online Astrologer, Kundali Matching, Astrology Predictions, Horoscope Readings, Free Horoscope, Personalized Astrology Insights, Kundali Analysis, Daily Horoscope, Weekly Horoscope, Astrology Consultation, Astrology Services',
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -34,9 +44,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-        <meta name="author" content={metadata.author} />
+        {metadata.metaTags.map((tag, index) => (
+          <meta key={index} name={tag.name} content={tag.content} />
+        ))}
         <meta property="og:title" content={metadata.openGraph.title} />
         <meta property="og:description" content={metadata.openGraph.description} />
         <meta property="og:type" content={metadata.openGraph.type} />
@@ -59,4 +69,3 @@ export default function RootLayout({
     </html>
   );
 }
-
