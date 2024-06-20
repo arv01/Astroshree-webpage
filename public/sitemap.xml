@@ -1,4 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<sitemap><loc>https://www.astroshree.live/sitemap-0.xml</loc></sitemap>
-</sitemapindex>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.astroshree.live/</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/free-kundali</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/kundali-matching</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/horoscope/todays</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/horoscope/weekly</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/horoscope/monthly</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/horoscope/daily</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/horoscope/tomorrow</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/horoscope/yesterday</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/chat-with-astrologer</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.astroshree.live/all-blog</loc>
+  <lastmod>2024-06-20T11:07:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
