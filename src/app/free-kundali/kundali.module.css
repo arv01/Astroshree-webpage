@@ -9,6 +9,20 @@
   justify-content: center;
   height: 100vh;
 }
+.h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+}
 .logoContainer {
   display: flex;
   align-items: center;
@@ -175,5 +189,14 @@
 
   .paragraph {
     font-size: 14px; /* Adjust font size for mobile screens */
+  }
+  .h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .p {
+    font-size: 14px;
+    margin-bottom: 15px;
   }
 }
