@@ -67,6 +67,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
         {/* Google Search Console verification meta tag */}
         <meta name="google-site-verification" content="qRpmEcGtKMVL-yGIKQFjG4VjAeYc9OAdUeZ24W6qMak" />
+        
       </head>
       <body className={inter.className}>{children}</body>
     </html>

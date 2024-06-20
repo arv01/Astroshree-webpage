@@ -14,9 +14,9 @@ const KundaliPage = () => {
       <Header />
       <div className={styles.container}>
         <div className={styles.heading}>
-          <h2>Free Kundli Online</h2>
+          <h1>Free Kundli Online</h1>
           <div className={styles.subheading}>
-            Get instant &amp; accurate, Janam Kundli
+           <h2>Get instant &amp; accurate, Janam Kundli</h2> 
           </div>
           <div className={styles.logoContainer}>
           <div className={`${styles.line} ${styles.leftLine}`}></div>

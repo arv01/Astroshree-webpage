@@ -1,7 +1,5 @@
 "use client";
-
 import React from 'react';
-import Header from '@/app/Common/Header';
 import styles from './GreetingsPage.module.css';
 
 
