@@ -9,6 +9,19 @@
     justify-content: center; /* Horizontally center the content */
     height: 100vh;
   }
+  .h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+  }
 
   .container {
     display: flex;
@@ -172,6 +185,15 @@
   }
   
   @media screen and (max-width: 480px) {
+    .h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
     .container {
       margin: 0 20px; /* Adjust margins for mobile screens */
     }
