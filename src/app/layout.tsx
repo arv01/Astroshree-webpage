@@ -65,8 +65,8 @@ export default function RootLayout({
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="google-site-verification=qRpmEcGtKMVL-yGIKQFjG4VjAeYc9OAdUeZ24W6qMak" />
-        
+        {/* Google Search Console verification meta tag */}
+        <meta name="google-site-verification" content="qRpmEcGtKMVL-yGIKQFjG4VjAeYc9OAdUeZ24W6qMak" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
