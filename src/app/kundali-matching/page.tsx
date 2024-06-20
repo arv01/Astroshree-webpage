@@ -27,7 +27,7 @@ const KundaliMatchingPage = () => {
       <p className={styles.parag}>
         Kundli milan or kundali matching is an important consideration to make when you decide to get married. Kundli matching, also called Gun matching or Horoscope matching, is the first step towards marriage when the parents decide to match the kundlis of the girl and the boy to ensure the couple is compatible. The gun milan exercise has been a part of India culture for 1000s of years now and continues to be so.
       </p>
-      <p>
+      <p className={styles.parag}>
         So, if you too are the lucky one who is planning to get married, and hence looking for a horoscope matching with someone you have started liking, then Astroshree can help you. The Kundali milan online software on Astroshree has been prepared by the top astrologers of Astroshree. The software caters to the free Kundli milan needs of the individuals and gives you insights; such as the number of guns matching for the girl and the boy, what they are compatible in, what their future would be like if they get married, and so much more. The online gun milan software can save you time and the hassle of going out to look for an astrologer to get the gun milan exercise done. Also, in case you have any doubts about the free kundali milan offered by Astroshree, you can always connect with the astrologers on board and get those doubts sorted for yourself.
       </p>
       <div className={styles.container}>
