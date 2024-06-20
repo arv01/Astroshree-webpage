@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.astroshree.live/
+
+# Sitemaps
+Sitemap: https://www.astroshree.live/sitemap.xml

@@ -5,21 +5,21 @@ import icon from '../../public/Assets/social_logo.jpg';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Astroshree - Leading Online Astrologers for Personalized Predictions',
-  description: 'Unlock personalized astrology predictions with Astroshree. Our expert astrologers offer detailed insights for self-discovery and empowerment. Avail a wide range of astrology services including Kundali matching, horoscope readings, and daily insights from anywhere.',
-  keywords: 'Astrology, Horoscope, Astrologer, Online Astrologer, Online Astrology, Kundali Matching, Horoscope Predictions, Free Horoscope, Personalized Astrology, Online Horoscope, Kundali Analysis, Daily Horoscope, Weekly Horoscope, Astrology Consultation',
+  title: 'Astroshree - Best Free Online Astrology Predictions by Top Indian Astrologers',
+  description: 'Discover personalized astrology predictions with Astroshree, the best online astrology website in India. Connect with the best astrologers near you for insights on your horoscope, career, and relationships. Enjoy free astrology chat, Kundali matching, Vastu astrology, and daily horoscope readings. Talk to astrologers online and get empowering guidance anytime, anywhere.',
+  keywords: 'Astrology, Horoscope, Astrologer, Online Astrologer, Astroshree, Online Astrology, Kundali Matching, Horoscope Predictions, Free Horoscope, Personalized Astrology, Online Horoscope, Kundali Analysis, Daily Horoscope, Weekly Horoscope, Astrology Consultation, Best Astrology Service, Top Astrologers in India, Best astrologers near me, My horoscope online, Best online astrology website in India, Vastu astrology, Horoscope Astrology, Chat with astrologer, Talk to Astrologer online, Online Astrology, Free astrology chat, Astroyogi, Career horoscope',
   author: 'Astroshree',
   openGraph: {
-    title: 'Astroshree - Leading Online Astrologers for Personalized Predictions',
-    description: 'Unlock personalized astrology insights with Astroshree’s expert astrologers. Explore Kundali matching, horoscope readings, and daily insights for self-discovery and empowerment.',
+    title: 'Astroshree - Best Free Online Astrology Predictions by Top Indian Astrologers',
+    description: 'Discover personalized astrology predictions with Astroshree, the best online astrology website in India. Connect with the best astrologers near you for insights on your horoscope, career, and relationships. Enjoy free astrology chat, Kundali matching, Vastu astrology, and daily horoscope readings. Talk to astrologers online and get empowering guidance anytime, anywhere.',
     type: 'website',
     url: 'https://www.astroshree.live',
     image: icon.src, // Update with the correct path to your image
     site_name: 'Astroshree',
   },
   twitter: {
-    title: "Astroshree - Leading Online Astrologers for Personalized Predictions",
-    description: "Unlock personalized astrology insights with Astroshree’s expert astrologers. Explore Kundali matching, horoscope readings, and daily insights for self-discovery and empowerment.",
+    title: "Astroshree - Best Free Online Astrology Predictions by Top Indian Astrologers",
+    description: "Discover personalized astrology predictions with Astroshree, the best online astrology website in India. Connect with the best astrologers near you for insights on your horoscope, career, and relationships. Enjoy free astrology chat, Kundali matching, Vastu astrology, and daily horoscope readings. Talk to astrologers online and get empowering guidance anytime, anywhere.",
     card: "summary_large_image",
     image: icon.src, // Update with the correct path to your image
     site: "@Astroshree",
@@ -31,7 +31,7 @@ export const metadata = {
     },
     {
       name: 'keywords',
-      content: 'Astrology, Horoscope, Online Astrologer, Kundali Matching, Astrology Predictions, Horoscope Readings, Free Horoscope, Personalized Astrology Insights, Kundali Analysis, Daily Horoscope, Weekly Horoscope, Astrology Consultation, Astrology Services',
+      content: 'Astrology, Astroshree, Horoscope, Online Astrologer, Kundali Matching, Astrology Predictions, Horoscope Readings, Free Horoscope, Personalized Astrology Insights, Kundali Analysis, Daily Horoscope, Weekly Horoscope, Astrology Consultation, Astrology Services',
     },
   ],
 };
