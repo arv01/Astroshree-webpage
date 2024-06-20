@@ -5,8 +5,6 @@ import React from 'react';
 import styles from '../kundali-matching/DetailForm.module.css'; // Make sure the path and filename match
 import Header from '../Common/Header'; 
 import Footer from '../Common/Footer/Footer';
-import BoysDetailForm from './BoysDetailForm';
-import GirlsDetailForm from './GirlsDetailForm';
 import KundaliMatching from './kundaliMatching';
 import KundaliMatchingBlog from "./KundaliMatchingBlog";
 import Image from 'next/image';
@@ -25,8 +23,8 @@ const KundaliMatchingPage = () => {
           <Image src={logo.src} alt="Astroshree Logo" />
           <div className={`${styles.line} ${styles.rightLine}`}></div>
         </div>
-      <h1>Free Match Making - Kundli Milan &amp; Gun Milan to Check Possibilities of Marriage</h1>
-      <p>
+      <h1 className={styles.title}>Free Match Making - Kundli Milan &amp; Gun Milan to Check Possibilities of Marriage</h1>
+      <p className={styles.parag}>
         Kundli milan or kundali matching is an important consideration to make when you decide to get married. Kundli matching, also called Gun matching or Horoscope matching, is the first step towards marriage when the parents decide to match the kundlis of the girl and the boy to ensure the couple is compatible. The gun milan exercise has been a part of India culture for 1000s of years now and continues to be so.
       </p>
       <p>
