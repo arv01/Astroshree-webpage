@@ -1,7 +1,12 @@
-// components/Footer.tsx
 import React from 'react';
 import styles from './Footer.module.css';
-
+import Image from 'next/image';
+import facebook from "../../../../public/Assets/facebook_5968764.svg";
+import insta from "../../../../public/Assets/instagram_2111463.svg";
+import twitter from "../../../../public/Assets/twitter_3670151.svg";
+import linkedin from "../../../../public/Assets/linkedin_145807.svg";
+import youtube from "../../../../public/Assets/youtube_3670147.svg";
+import pinterest_145808 from "../../../../public/Assets/pinterest_145808.svg";
 const Footer = () => {
     return (
         <footer className={styles.footer}>
@@ -25,9 +30,45 @@ const Footer = () => {
                 <div className={styles['footer-section']}>
                     <h2>Kundli Matching</h2>
                     <ul>
-                        <li><a href="/free-kundali">Janam Kundli</a></li>
-                        <li><a href="/kundali-matching">Kundli Matching</a></li>
+                    <li><a href="/free-kundali">Janam Kundli</a></li>
+                    <li><a href="/kundali-matching">Kundli Matching</a></li>
+                       
                         {/* Add more Kundli Matching links as needed */}
+                    </ul>
+                </div>
+                <div className={styles['social-medias']}>
+                   
+                    <ul>
+                    <li>
+                            <a href="https://www.facebook.com/astroshreelive" target="_blank" rel="noopener noreferrer">
+                                <img width={40} src={facebook.src} alt="astroshree-Facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/astroshreeapp" target="_blank" rel="noopener noreferrer">
+                                <img width={40} src={twitter.src} alt="astroshree-Twitter" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/astroshriapp" target="_blank" rel="noopener noreferrer">
+                                <img width={40} src={insta.src} alt="astroshree-Instagram" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/astro-shree-1058a6315/" target="_blank" rel="noopener noreferrer">
+                                <img width={40} src={linkedin.src} alt="astroshree-LinkedIn" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCgEsMgrs7FKO7NnFXCGQH-w" target="_blank" rel="noopener noreferrer">
+                                <img width={40} src={youtube.src} alt="astroshree-YouTube" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/astroshreelive/" target="_blank" rel="noopener noreferrer">
+                                <img width={40} src={pinterest_145808.src} alt="astroshree-Pinterest" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 {/* Add more sections with respective links */}
@@ -37,6 +78,7 @@ const Footer = () => {
                 <p>Email: astroshree.live@gmail.com</p>
                 <p>Phone: +91 82877003229</p>
             </div>
+          
         </footer>
     );
 };
