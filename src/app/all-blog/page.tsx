@@ -11,6 +11,8 @@ import blog5 from "../../../public/Assets/blog5.svg";
 import blog6 from "../../../public/Assets/blog6.svg";
 import blog7 from '../../../public/Assets/blog7.jpg'; // Add import for new blog image
 import blog8 from '../../../public/Assets/broken-heart-concept.jpg';
+import blog9 from '../../../public/Assets/young-couple-cooking-home.jpg';
+import blog10 from '../../../public/Assets/home-office-time-capsule-crafting-digital-memories-reflections.jpg';
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
 import Header from '../Common/Header';
 import Footer from '../Common/Footer/Footer';
@@ -73,6 +75,23 @@ const blogPostsData = [
     description: 'Kya Mujhe Mera Khoya Hua Pyar Milega?',
     content: 'Content of the blog post...'
   },
+  {
+    id: 9,
+    slug: "vastu-for-the-kitchen-designing-the-heart-of-your-home",
+    image: blog9,
+    date: '22/06/2024',
+    description: 'Learn how to design your kitchen according to Vastu Shastra principles to create a harmonious and prosperous living environment.',
+    content: 'Content of the blog post...'
+  },
+  {
+    id: 10,
+    slug: "vastu-for-career-success-designing-your-home-office",
+    image: blog10,
+    date: '21/06/2024',
+    description: 'Learn how to design your home office according to Vastu Shastra principles to enhance your career success and productivity.',
+    content:""
+  }
+  
 ];
 
 const BlogPage = () => {

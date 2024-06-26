@@ -64,8 +64,23 @@ export const blogPostsData = [
         description: 'Kya Mujhe Mera Khoya Hua Pyar Milega?',
         content: 'Content of the blog post...'
       },
+      {
+        id: 9,
+        slug: "vastu-for-the-kitchen-designing-the-heart-of-your-home",
+        image: { src: "/Assets/blog_vastu_kitchen.jpg" },
+        date: '26/06/2024',
+        description: 'Learn how to design your kitchen according to Vastu Shastra principles to create a harmonious and prosperous living environment.',
+        content: 'Content of the blog post...'
+      },
       
-  
+      {
+        id: 10,
+        slug: "vastu-for-career-success-designing-your-home-office",
+        image: { src: "/Assets/blog_vastu_kitchen.jpg" },
+        date: '21/06/2024',
+        description: 'Learn how to design your home office according to Vastu Shastra principles to enhance your career success and productivity.',
+        content:""
+      }
     
     // Other blog posts...
   ];

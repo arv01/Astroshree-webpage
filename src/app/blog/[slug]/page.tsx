@@ -18,6 +18,8 @@ import BlogCase5 from '../BlogCase5';
 import BlogCase6 from '../BlogCase6';
 import BlogCase7 from '../BlogCase7';
 import LostLoveBlogPost from '../LostLoveBlogPost';
+import BlogCaseVastuKitchen from '../BlogCaseVastuKitchen';
+import BlogCase10 from '../BlogCase10';
 
 
 interface Params {
@@ -80,10 +82,7 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                   <div>
                     <BlogCase7/>
                   </div>
-                );
-
-
-          
+                );   
         
         case "kya-mujhe-mera-khoya-hua-pyar-milega":
               return (
@@ -91,7 +90,21 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                     <LostLoveBlogPost/>
                   </div>
                   );
-  
+
+                  case "vastu-for-the-kitchen-designing-the-heart-of-your-home":
+                    return (
+                      <div>
+                          <BlogCaseVastuKitchen/>
+                        </div>
+                        );
+                        
+                  case "vastu-for-career-success-designing-your-home-office":
+                    return (
+                      <div>
+                          <BlogCase10/>
+                        </div>
+                        );
+                        
   
         default:
         return <div>Page not found</div>;
