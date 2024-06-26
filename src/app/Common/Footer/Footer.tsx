@@ -41,32 +41,32 @@ const Footer = () => {
                     <ul>
                     <li>
                             <a href="https://www.facebook.com/astroshreelive" target="_blank" rel="noopener noreferrer">
-                                <Image  src={facebook.src} width={40} height={40} alt="astroshree-Facebook" />
+                                <Image  src={facebook} width={40} height={40} alt="astroshree-Facebook" />
                             </a>
                         </li>
                         <li>
                             <a href="https://x.com/astroshreeapp" target="_blank" rel="noopener noreferrer">
-                                <Image  src={twitter.src} width={40} height={40} alt="astroshree-Twitter" />
+                                <Image  src={twitter} width={40} height={40} alt="astroshree-Twitter" />
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/astroshriapp" target="_blank" rel="noopener noreferrer">
-                                <Image  src={insta.src} width={40} height={40} alt="astroshree-Instagram" />
+                                <Image  src={insta} width={40} height={40} alt="astroshree-Instagram" />
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/astro-shree-1058a6315/" target="_blank" rel="noopener noreferrer">
-                                <Image src={linkedin.src}  width={40} height={40} alt="astroshree-LinkedIn" />
+                                <Image src={linkedin}  width={40} height={40} alt="astroshree-LinkedIn" />
                             </a>
                         </li>
                         <li>
                             <a href="https://www.youtube.com/channel/UCgEsMgrs7FKO7NnFXCGQH-w" target="_blank" rel="noopener noreferrer">
-                                <Image  src={youtube.src} width={40} height={40} alt="astroshree-YouTube" />
+                                <Image  src={youtube} width={40} height={40} alt="astroshree-YouTube" />
                             </a>
                         </li>
                         <li>
                             <a href="https://www.pinterest.com/astroshreelive/" target="_blank" rel="noopener noreferrer">
-                                <Image  src={pinterest_145808.src} width={40} height={40} alt="astroshree-Pinterest" />
+                                <Image  src={pinterest_145808} width={40} height={40} alt="astroshree-Pinterest" />
                             </a>
                         </li>
                     </ul>
