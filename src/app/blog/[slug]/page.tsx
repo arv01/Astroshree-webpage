@@ -83,7 +83,7 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                 );
 
 
-                kya-mujhe-mera-khoya-hua-pyar-milega
+          
         
         case "kya-mujhe-mera-khoya-hua-pyar-milega":
               return (
