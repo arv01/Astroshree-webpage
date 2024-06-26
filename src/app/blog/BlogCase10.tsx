@@ -24,7 +24,7 @@ const BlogCase10: React.FC = () => {
           />
         </div>
         <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-6">
-          In today's world, where working from home has become increasingly common, having a home office that fosters productivity and success is essential. Vastu Shastra, the ancient Indian science of architecture, offers guidelines to create a workspace that enhances your career prospects and overall well-being. Here are some essential Vastu tips for designing a home office that supports career success.
+          In today&apos;s world, where working from home has become increasingly common, having a home office that fosters productivity and success is essential. Vastu Shastra, the ancient Indian science of architecture, offers guidelines to create a workspace that enhances your career prospects and overall well-being. Here are some essential Vastu tips for designing a home office that supports career success.
         </p>
 
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-gray-800 uppercase">1. Ideal Location and Layout</h2>
