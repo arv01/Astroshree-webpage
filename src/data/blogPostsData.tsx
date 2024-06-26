@@ -52,7 +52,7 @@ export const blogPostsData = [
         id: 7,
         slug: "putra-parapti-astrology-and-the-birth-of-a-son",
         image: { src: "/Assets/PutraParapti.svg" },
-        date: '06/05/2024',
+        date: '25/06/2024',
         description: 'Putra Parapti: Astrology and the Birth of a Son',
         content: 'Content of the blog post...'
       },
@@ -60,7 +60,7 @@ export const blogPostsData = [
         id: 8,
         slug: "kya-mujhe-mera-khoya-hua-pyar-milega",
         image: { src: "/Assets/KhoyaHuaPyar.svg" },
-        date: '06/05/2024',
+        date: '26/06/2024',
         description: 'Kya Mujhe Mera Khoya Hua Pyar Milega?',
         content: 'Content of the blog post...'
       },

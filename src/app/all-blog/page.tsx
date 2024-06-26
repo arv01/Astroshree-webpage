@@ -62,14 +62,14 @@ const blogPostsData = [
     id: 7, 
     slug: "putra-parapti-astrology-and-the-birth-of-a-son", 
     image: blog7, 
-    date: '05/07/2024', 
+    date: '25/06/2024', 
     description: 'Explore the astrological factors influencing the birth of a son, known as Putra Parapti in Vedic astrology.' 
   },
   {
     id: 8,
     slug: "kya-mujhe-mera-khoya-hua-pyar-milega",
     image: blog8  ,
-    date: '06/05/2024',
+    date: '26/06/2024',
     description: 'Kya Mujhe Mera Khoya Hua Pyar Milega?',
     content: 'Content of the blog post...'
   },
