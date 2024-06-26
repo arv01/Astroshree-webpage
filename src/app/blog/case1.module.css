@@ -1,12 +1,131 @@
+/* General styling */
 .imageContainer {
-    position: relative;
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 3rem; /* Default size */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.image {
+  object-fit: cover;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 768px) {
+  .imageContainer {
+    height: 250px; /* Adjust the height for smaller screens */
+  }
+
+  .title {
+    font-size: 1.75rem; /* Adjust the font size for smaller screens */
+  }
+
+  .text-3xl {
+    font-size: 1.75rem; /* Adjust the font size for smaller screens */
+  }
+
+  .font-bold {
+    font-weight: 700;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .w-full {
     width: 100%;
-    height: 400px; /* Adjust the height as needed */
-    overflow: hidden;
-    border-radius: 10px;
   }
-  
-  .image {
-    object-fit: cover;
+
+  .max-w-4xl {
+    max-width: 100%;
   }
-  
+
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .prose {
+    font-size: 1rem; /* Adjust the font size for smaller screens */
+  }
+
+  .lg\:prose-xl {
+    font-size: 1.25rem; /* Adjust the font size for larger screens */
+  }
+
+  .space-y-4 > * + * {
+    margin-top: 1rem;
+  }
+}
+
+/* Responsive styling for very small screens */
+@media (max-width: 480px) {
+  .imageContainer {
+    height: 200px; /* Adjust the height for very small screens */
+  }
+
+  .title {
+    font-size: 7px;
+    font-size: 1.5rem; /* Adjust the font size for very small screens */
+  }
+
+  .text-3xl {
+    font-size: 1.5rem; /* Adjust the font size for very small screens */
+  }
+
+  .mb-8 {
+    margin-bottom: 1.5rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 0.5rem;
+  }
+
+  .prose {
+    font-size: 0.875rem; /* Adjust the font size for very small screens */
+  }
+
+  .lg\:prose-xl {
+    font-size: 1rem; /* Adjust the font size for very small screens */
+  }
+
+  .space-y-4 > * + * {
+    margin-top: 0.75rem;
+  }
+}
+
+/* Ensure the headings and paragraphs are responsive */
+.h1, .h2, .h3, .h4, .h5, .h6, .p {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Additional general styling */
+.body {
+  font-family: Arial, sans-serif; /* Use a web-safe font */
+  line-height: 1.6;
+  margin: 16px;
+  color: #333; /* Use a color that ensures good contrast and readability */
+}
+
+.section {
+  margin-bottom: 2rem;
+  margin-left: 0; /* Remove left margin */
+}

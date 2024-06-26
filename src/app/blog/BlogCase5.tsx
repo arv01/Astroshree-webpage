@@ -4,13 +4,13 @@ import blog5 from '../../../public/Assets/blog5.svg';
 import styles from '../blog/case2.module.css'; 
 const BlogCase5: React.FC = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>4 Zodiac Signs Who Are Scared To Fall In Love</title>
         <meta name="description" content="Discover the 4 zodiac signs that are often scared to fall in love and why." />
       </Head>
-      <article className="p-20 rounded-lg shadow-lg">
-        <h1 className="text-4xl font-bold mb-6 text-gray-800 uppercase tracking-wide">
+      <article className="p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20 rounded-lg shadow-lg">
+        <h1 className="text-4xl font-bold mb-8 text-gray-800 uppercase tracking-wide">
           4 Zodiac Signs Who Are Scared To Fall In Love
         </h1>
         <div className="relative w-full h-64 mb-8">

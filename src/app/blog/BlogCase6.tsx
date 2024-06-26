@@ -12,7 +12,7 @@ const BlogCase6: FC = () => {
         <title>The Most Compatible Zodiac Sign Matches: Who&apos;s Your Perfect Partner?</title>
       </Head>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold mb-4 text-center md:text-left">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center md:text-left">
           The Most Compatible Zodiac Sign Matches: Who&apos;s Your Perfect Partner?
         </h1>
         <p className="text-gray-600 mb-8 text-center md:text-left">By Astroshree / June 4, 2024</p>

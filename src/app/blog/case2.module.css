@@ -1,23 +1,162 @@
-/* case2.module.css */
-
+/* General styling */
 .container {
-    margin: 0 auto;
-    margin-left: 0px;
-    max-width: 100%;
+  font-family: Arial, sans-serif; /* Use a web-safe font */
+  line-height: 1.6;
+  color: #333; /* Use a color that ensures good contrast and readability */
+  padding: 20px;
+}
+
+/* Article styling */
+.article {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* Ensure good readability with a white background */
+}
+
+/* Title styling */
+.h1 {
+  font-size: 2.5rem; /* Default size */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2d3748;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Section title styling */
+.h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #2d3748;
+  text-transform: uppercase;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+}
+
+/* Paragraph styling */
+.p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #718096;
+}
+
+.ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.li {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #718096;
+}
+
+/* Image styling */
+.image {
+  position: relative;
+  width: 100%;
+  height: 16rem; /* Adjust as necessary */
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 2rem; /* Adjust the font size for smaller screens */
   }
-  
+
+  .h2 {
+    font-size: 1.75rem;
+  }
+
+  .h3 {
+    font-size: 1.25rem;
+  }
+
+  .p, .li {
+    font-size: 0.875rem;
+  }
+
   .image {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 800px;
-    height: auto;
+    height: 12rem; /* Adjust as necessary */
   }
-  
-  .ul li strong {
-    font-weight: bold;
-    color: #333; /* Adjust color as needed */
+}
+
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 1.5rem; /* Adjust the font size for smaller screens */
   }
-  
-  /* Add additional styles for responsiveness */
-  
+
+  .h2 {
+    font-size: 1.5rem;
+  }
+
+  .h3 {
+    font-size: 1.125rem;
+  }
+
+  .p, .li {
+    font-size: 0.75rem;
+  }
+
+  .image {
+    height: 10rem; /* Adjust as necessary */
+  }
+}
+
+/* Tailwind-inspired utility classes */
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.text-gray-700 {
+  color: #4a5568;
+}
+
+.text-gray-600 {
+  color: #718096;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-wide {
+  letter-spacing: 0.05em;
+}

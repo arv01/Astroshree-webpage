@@ -9,6 +9,8 @@ import blog3 from "../../../public/Assets/blog3.svg";
 import blog4 from "../../../public/Assets/blog4.svg";
 import blog5 from "../../../public/Assets/blog5.svg";
 import blog6 from "../../../public/Assets/blog6.svg";
+import blog7 from '../../../public/Assets/blog7.jpg'; // Add import for new blog image
+import blog8 from '../../../public/Assets/broken-heart-concept.jpg';
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
 import Header from '../Common/Header';
 import Footer from '../Common/Footer/Footer';
@@ -55,6 +57,21 @@ const blogPostsData = [
     image: blog6, 
     date: '30/06/2024', 
     description: 'Find out which zodiac signs are most compatible with each other and explore the dynamics of perfect partnerships.' 
+  },
+  { 
+    id: 7, 
+    slug: "putra-parapti-astrology-and-the-birth-of-a-son", 
+    image: blog7, 
+    date: '05/07/2024', 
+    description: 'Explore the astrological factors influencing the birth of a son, known as Putra Parapti in Vedic astrology.' 
+  },
+  {
+    id: 8,
+    slug: "kya-mujhe-mera-khoya-hua-pyar-milega",
+    image: blog8  ,
+    date: '06/05/2024',
+    description: 'Kya Mujhe Mera Khoya Hua Pyar Milega?',
+    content: 'Content of the blog post...'
   },
 ];
 
