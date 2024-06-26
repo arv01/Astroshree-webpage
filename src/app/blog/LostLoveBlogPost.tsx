@@ -8,7 +8,7 @@ const LostLoveBlogPost = () => {
       <div className={styles.container}>
         <Head>
           <title>Kya Mujhe Mera Khoya Hua Pyar Milega? - Astroshree Astrologer</title>
-          <meta name="description" content="Explore astrology's insights on lost love, potential reunions, and predictive techniques to find lost love again." />
+          <meta name="description" content="Explore astrology&quot;s insights on lost love, potential reunions, and predictive techniques to find lost love again." />
         </Head>
   
         <article>
@@ -28,7 +28,7 @@ const LostLoveBlogPost = () => {
   
           <div className={styles.content}>
             <p>
-              In the intricate tapestry of relationships, the yearning for lost love often lingers as a poignant question: "Will I find my lost love again?"
+              In the intricate tapestry of relationships, the yearning for lost love often lingers as a poignant question: Will I find my lost love again?
               Astrology, with its celestial insights and predictive powers, offers profound guidance on the prospects of rekindling lost love.
             </p>
   
