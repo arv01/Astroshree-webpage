@@ -55,7 +55,7 @@ const blogPostsData = [
     id: 6, 
     slug: "compatible-zodiac-signs", 
     image: blog6, 
-    date: '30/06/2024', 
+    date: '23/06/2024', 
     description: 'Find out which zodiac signs are most compatible with each other and explore the dynamics of perfect partnerships.' 
   },
   { 
