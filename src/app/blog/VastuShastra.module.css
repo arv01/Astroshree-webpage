@@ -1,0 +1,98 @@
+/* General styling */
+.container {
+    font-family: Arial, sans-serif; /* Use a web-safe font */
+    line-height: 1.6;
+    color: #333; /* Use a color that ensures good contrast and readability */
+    padding: 20px;
+  }
+  
+  /* Article styling */
+  .article {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Ensure good readability with a white background */
+  }
+  
+  /* Title styling */
+  .sectionTitle {
+    font-size: 2.0rem; /* Default size */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2d3748;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Section title styling */
+  .subTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #2d3748;
+    text-transform: uppercase;
+  }
+  
+  /* Paragraph styling */
+  .p {
+    font-size: 2rem;
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 1rem;
+    color: #718096;
+  }
+  
+  /* Unordered list styling */
+  .ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* List item styling */
+  .li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #718096;
+  }
+  
+  /* Ordered list styling */
+  .directionsList {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Tips list styling */
+  .tipsList {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive styling for small screens */
+  @media (max-width: 768px) {
+    .sectionTitle {
+      font-size: 2rem; /* Adjust the font size for smaller screens */
+    }
+  
+    .subTitle {
+      font-size: 1.75rem;
+    }
+  
+    .p, .li {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sectionTitle {
+      font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    }
+  
+    .subTitle {
+      font-size: 1.5rem;
+    }
+  
+    .p, .li {
+      font-size: 0.75rem;
+    }
+  }
+  

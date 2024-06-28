@@ -80,6 +80,14 @@ export const blogPostsData = [
         date: '21/06/2024',
         description: 'Learn how to design your home office according to Vastu Shastra principles to enhance your career success and productivity.',
         content:""
+      },
+      {
+        id: 11,
+        slug: "vastu-shastra-understanding-orientation-and-directions",
+        image: { src: "/Assets/blog_vastu_directions.jpg" },
+        date: '2024-06-21',
+        description: 'Explore the principles of Vastu Shastra regarding orientation and directions, and their impact on well-being and prosperity.',
+        content: ""
       }
     
     // Other blog posts...

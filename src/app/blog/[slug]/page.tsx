@@ -20,6 +20,7 @@ import BlogCase7 from '../BlogCase7';
 import LostLoveBlogPost from '../LostLoveBlogPost';
 import BlogCaseVastuKitchen from '../BlogCaseVastuKitchen';
 import BlogCase10 from '../BlogCase10';
+import BlogCase11 from '../blogCase11';
 
 
 interface Params {
@@ -104,6 +105,13 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                           <BlogCase10/>
                         </div>
                         );
+                        case "vastu-shastra-understanding-orientation-and-directions":
+                          return (
+                            <div>
+                                <BlogCase11/>
+                              </div>
+                              );
+                        
                         
   
         default:

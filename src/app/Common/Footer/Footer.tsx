@@ -36,8 +36,37 @@ const Footer = () => {
                         {/* Add more Kundli Matching links as needed */}
                     </ul>
                 </div>
-                <div className={styles['social-medias']}>
-                   
+                <div className={styles['footer-section']}>
+                   <h2>Corporate Info</h2>
+                   <ul>
+                        <li>
+                            <a href="/terms-conditions" title="Terms and Conditions - Astroshree">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/privacy-policy" title="Privacy Policy - Astroshree">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/disclaimer" title="Disclaimer - Astroshree">
+                                Disclaimer
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about-us" title="About Us - Astroshree">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/pricing-policy" title="Pricing Policy - Astroshree">
+                                Pricing Policy
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div className={styles['social-medias']}>
                     <ul>
                     <li>
                             <a href="https://www.facebook.com/astroshreelive" target="_blank" rel="noopener noreferrer">
@@ -70,6 +99,7 @@ const Footer = () => {
                             </a>
                         </li>
                     </ul>
+                    </div>
                 </div>
                 {/* Add more sections with respective links */}
             </div>

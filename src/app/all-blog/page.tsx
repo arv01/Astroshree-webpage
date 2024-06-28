@@ -13,6 +13,7 @@ import blog7 from '../../../public/Assets/blog7.jpg'; // Add import for new blog
 import blog8 from '../../../public/Assets/broken-heart-concept.jpg';
 import blog9 from '../../../public/Assets/young-couple-cooking-home.jpg';
 import blog10 from '../../../public/Assets/home-office-time-capsule-crafting-digital-memories-reflections.jpg';
+import blog11 from "../../../public/Assets/3d-photo-clock-wallpaper.jpg";
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
 import Header from '../Common/Header';
 import Footer from '../Common/Footer/Footer';
@@ -90,6 +91,14 @@ const blogPostsData = [
     date: '21/06/2024',
     description: 'Learn how to design your home office according to Vastu Shastra principles to enhance your career success and productivity.',
     content:""
+  },
+  {
+    id: 11,
+    slug: "vastu-shastra-understanding-orientation-and-directions",
+    image: blog11,
+    date: '2024-06-21',
+    description: 'Explore the principles of Vastu Shastra regarding orientation and directions, and their impact on well-being and prosperity.',
+    content: ""
   }
   
 ];
