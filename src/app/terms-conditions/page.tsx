@@ -42,7 +42,7 @@ const TermsAndConditions = () => {
             All the content on the website is the property of www.astroshree.live. Users cannot use or distribute the content without our permission. Users must follow the rules of use and should not post any inappropriate content. The website has the right to suspend or terminate the account if any violation of rules is found. The website can change, update, or stop any of its services at any time. Information provided on the website should not be considered medical advice. The website is not responsible for the advice given by third parties and the outcome of any advice.
           </p>
           <p className={styles.p}>
-            The website also provides a "call to astrologer" service. In this service, the user must agree to receive a call on their given mobile number from the website. Astroshree also provides the first chat or call free for up to 5 minutes to all newly registered users.
+            The website also provides a &quotcall to astrologer&quot service. In this service, the user must agree to receive a call on their given mobile number from the website. Astroshree also provides the first chat or call free for up to 5 minutes to all newly registered users.
           </p>
           <p className={styles.p}>
             <strong>Note:</strong> Users must consult doctors for any medical advice.
