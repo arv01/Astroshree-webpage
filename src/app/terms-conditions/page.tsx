@@ -10,7 +10,7 @@ const TermsAndConditions = () => {
          <div className={styles.container}>
       <Head>
         <title>Terms and Conditions - Astroshree</title>
-        <meta name="description" content="Read the terms and conditions for using Astroshree's astrology consultancy services. Learn about user responsibilities, privacy policies, and more." />
+        <meta name="description" content="Read the terms and conditions for using Astroshree&apos;s astrology consultancy services. Learn about user responsibilities, privacy policies, and more." />
       </Head>
 
       <article>
@@ -31,10 +31,10 @@ const TermsAndConditions = () => {
 
           <h2 className={styles.h2}>User Roles</h2>
           <p className={styles.p}>
-            To access our website, the user's age must be more than 18 years. Our website is not responsible for any misuse that may occur when services are used by minors. To avail of all services, users must create an account. For registration, users must read all the terms and conditions. While creating an account, you must provide accurate information. Users can create an account using their phone number, Facebook ID, or Google ID. During the process, the user must provide genuine data and update it timely if required. If the website finds any wrong information, we have the right to delete or terminate that user account.
+            To access our website, the user&apos;s age must be more than 18 years. Our website is not responsible for any misuse that may occur when services are used by minors. To avail of all services, users must create an account. For registration, users must read all the terms and conditions. While creating an account, you must provide accurate information. Users can create an account using their phone number, Facebook ID, or Google ID. During the process, the user must provide genuine data and update it timely if required. If the website finds any wrong information, we have the right to delete or terminate that user account.
           </p>
           <p className={styles.p}>
-            After registration, a user must keep his or her account details confidential. If the user finds any unauthorized access, inform us immediately. It is the user's responsibility to use the website in a way that respects the rights of other users and obeys all the rules.
+            After registration, a user must keep his or her account details confidential. If the user finds any unauthorized access, inform us immediately. It is the user&apos;s responsibility to use the website in a way that respects the rights of other users and obeys all the rules.
           </p>
 
           <h2 className={styles.h2}>Intellectual Property or Content</h2>

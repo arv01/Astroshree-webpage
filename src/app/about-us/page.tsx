@@ -10,7 +10,7 @@ const AboutUs = () => {
     <div className={styles.container}>
         <Head>
             <title>About Us - Astroshree</title>
-            <meta name="description" content="Learn about Astroshree, its mission, vision, and the team behind the astrology consultancy services provided on www.astroshree.com." />
+            <meta name="description" content="Learn about Astroshree, its mission, vision, and the team behind the astrology consultancy services provided on www.astroshree.live." />
         </Head>
 
         <article>
@@ -20,7 +20,7 @@ const AboutUs = () => {
 
             <div className={styles.content}>
             <p>
-                Astroshree is dedicated to providing reliable and accurate astrology consultancy services. Our mission is to offer insights and guidance based on astrological principles to help individuals navigate life's challenges and opportunities.
+                Astroshree is dedicated to providing reliable and accurate astrology consultancy services. Our mission is to offer insights and guidance based on astrological principles to help individuals navigate life&apos;s challenges and opportunities.
             </p>
 
             <p>
@@ -28,7 +28,7 @@ const AboutUs = () => {
             </p>
 
             <p>
-                Whether you're seeking clarity on your life's purpose, relationships, or career path, Astroshree is here to support you with compassionate and accurate astrological guidance.
+                Whether you&apos;re seeking clarity on your life&apos;s purpose, relationships, or career path, Astroshree is here to support you with compassionate and accurate astrological guidance.
             </p>
 
             <h2 className={styles.h2}>Contact Us</h2>
