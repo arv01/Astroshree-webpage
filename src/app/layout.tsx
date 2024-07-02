@@ -69,13 +69,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="qRpmEcGtKMVL-yGIKQFjG4VjAeYc9OAdUeZ24W6qMak" />
         
       </head>
-      <body className={inter.className}>{children}
-      <a href="https://www.astroshree.live/">
-          <div style={{ borderRadius: '8px', width: '92px', height: '92px' }}>
-            <img alt="astroshree from www.astroshree.live" src={icon.src} />
-          </div>
-        </a>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
