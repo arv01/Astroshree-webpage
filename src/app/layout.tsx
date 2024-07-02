@@ -67,7 +67,18 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
         {/* Google Search Console verification meta tag */}
         <meta name="google-site-verification" content="qRpmEcGtKMVL-yGIKQFjG4VjAeYc9OAdUeZ24W6qMak" />
-        
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Astroshree",
+          "url": "https://www.astroshree.live",
+          "logo": icon.src,
+          "sameAs": [
+            "https://www.facebook.com/astroshreelive",
+            "https://x.com/astroshreeapp",
+            "https://www.instagram.com/astroshriapp"
+          ]
+        }) }} />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
