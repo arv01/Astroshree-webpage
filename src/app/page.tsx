@@ -20,6 +20,7 @@ const Page = () => {
         <meta property="og:image" content="https://www.astroshree.live/_next/static/media/astroshree.1456688b.svg" />
         <meta property="og:url" content="https://www.astroshree.live" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="google-site-verification" content="qRpmEcGtKMVL-yGIKQFjG4VjAeYc9OAdUeZ24W6qMak" />
       </Head>
       <LandingPage />
     </div>
