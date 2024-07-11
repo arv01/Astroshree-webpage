@@ -1,66 +1,82 @@
 /* Blogs.module.css */
 
+.dateContainer {
+  display: flex; /* Use flexbox to place items in a row */
+  align-items: center; /* Align items vertically center */
+  justify-content: space-between; /* Distribute items with equal space between them */
+}
+
+.date {
+  font-size: 14px; /* Adjust font size as needed */
+  color: black; /* Set font color to black */
+  margin-right: 10px; /* Example margin */
+  font-weight: bold; /* Make the text bold */
+}
+
 .blogSection {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .blogSection h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
-  
-  .blogSection p {
-    margin-bottom: 20px;
-  }
-  
+  text-align: center;
+  padding: 20px;
+}
+
+.blogSection h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.blogSection p {
+  margin-bottom: 20px;
+}
+
+.blogPostsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.blogPost {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.blogPost:hover {
+  transform: scale(1.05);
+}
+
+.blogPost img {
+  width: 100%; /* Ensure image takes full width of its container */
+  height: 200px; /* Set fixed height for the image */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+  border-radius: 8px 8px 0 0; /* Rounded corners only on top */
+}
+
+.date {
+  font-size: 14px;
+  color: #888888;
+  margin: 10px;
+}
+
+.description {
+  font-size: 16px;
+  margin: 10px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
   .blogPostsContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 0 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
-  
+}
+
+@media screen and (max-width: 480px) {
+  .blogPostsContainer {
+    grid-template-columns: 1fr;
+  }
+
   .blogPost {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
+    padding: 10px;
   }
-  
-  .blogPost:hover {
-    transform: scale(1.05);
-  }
-  
-  .blogPost img {
-    border-radius: 8px 8px 0 0;
-  }
-  
-  .date {
-    font-size: 14px;
-    color: #888888;
-    margin: 10px;
-  }
-  
-  .description {
-    font-size: 16px;
-    margin: 10px;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .blogPostsContainer {
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .blogPostsContainer {
-      grid-template-columns: 1fr;
-    }
-  
-    .blogPost {
-      padding: 10px;
-    }
-  }
-  
+}

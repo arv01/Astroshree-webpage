@@ -21,6 +21,17 @@ import LostLoveBlogPost from '../LostLoveBlogPost';
 import BlogCaseVastuKitchen from '../BlogCaseVastuKitchen';
 import BlogCase10 from '../BlogCase10';
 import BlogCase11 from '../blogCase11';
+import BlogUnderstandingBirthChart from '../BlogUnderstandingBirthChart';
+import RoleOfPlanetsBlogPost from '../RoleOfPlanetsBlogPost';
+import AstrologicalRemediesBlogPost from '../AstrologicalRemediesBlogPost';
+import CareerPredictionsBlogPost from '../CareerPredictionsBlogPost';
+import FinancialSuccessBlogPost from '../FinancialSuccessBlogPost';
+import HousesInHoroscopePost from '../HousesInHoroscopePost';
+import SpiritualGrowthBlogPost from '../SpiritualGrowthBlogPost';
+import HealthAstrologyBlogPost from '../HealthAstrologyBlogPost';
+import SaturnReturnBlogPost from '../SaturnReturnBlogPost';
+import KarmaDestinyBlogPost from '../KarmaDestinyBlogPost';
+import AstrologyInEverydayLifePost from '../AstrologyInEverydayLifePost';
 
 
 interface Params {
@@ -111,7 +122,82 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                                 <BlogCase11/>
                               </div>
                               );
-                        
+                              case "understanding-your-birth-chart-basics-of-natal-astrology":
+                                return (
+                                  <div>
+                                      <BlogUnderstandingBirthChart/>
+                                    </div>
+                                    );case "role-of-planets-in-your-horoscope-how-they-affect-your-daily-life":
+                                    return (
+                                      <div>
+                                          <RoleOfPlanetsBlogPost/>
+                                        </div>
+                                        );
+                                        case "astrological-remedies-using-gemstones-mantras-and-rituals":
+                                        return (
+                                          <div>
+                                              <AstrologicalRemediesBlogPost/>
+                                            </div>
+                                            );
+                                            case "career-predictions-choosing-the-right-path-through-astrology":
+                                              return (
+                                                <div>
+                                                    <CareerPredictionsBlogPost/>
+                                                  </div>
+                                                  );
+                                                  case "career-predictions-choosing-the-right-path-through-astrology":
+                                                  return (
+                                                    <div>
+                                                        <CareerPredictionsBlogPost/>
+                                                      </div>
+                                                      );
+                                                      case "financial-success-and-astrology-best-times-to-invest-and-save":
+                                                        return (
+                                                          <div>
+                                                              <FinancialSuccessBlogPost/>
+                                                            </div>
+                                                            );
+                                                            case "importance-of-12-houses-in-your-horoscope":
+                                                            return (
+                                                              <div>
+                                                                  <HousesInHoroscopePost/>
+                                                                </div>
+                                                                );
+                                                                case "astrology-and-spiritual-growth-finding-your-life-purpose":
+                                                                  return (
+                                                                    <div>
+                                                                        <SpiritualGrowthBlogPost/>
+                                                                      </div>
+                                                                      );
+                                                                      case "astrology-and-health-how-planetary-positions-affect-well-being":
+                                                                      return (
+                                                                        <div>
+                                                                            <HealthAstrologyBlogPost/>
+                                                                          </div>
+                                                                          );
+                                                                          case "the-significance-of-saturn-return-and-life-transformations":
+                                                                            return (
+                                                                              <div>
+                                                                                  <SaturnReturnBlogPost/>
+                                                                                </div>
+                                                                                );
+                                                                                case "the-role-of-karma-and-destiny-in-astrology":
+                                                                                return (
+                                                                                  <div>
+                                                                                      <KarmaDestinyBlogPost/>
+                                                                                    </div>
+                                                                                    );
+                                                                                    case "astrology-in-everyday-life-practical-applications-and-insights":
+                                                                                    return (
+                                                                                      <div>
+                                                                                          <AstrologyInEverydayLifePost/>
+                                                                                        </div>
+                                                                                        );
+                                                                          
+
+                                                                
+                                                            
+                                                      
                         
   
         default:
