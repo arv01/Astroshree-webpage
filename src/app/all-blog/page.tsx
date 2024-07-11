@@ -82,7 +82,7 @@ const blogPostsData = [
     slug: "putra-parapti-astrology-and-the-birth-of-a-son", 
     image: blog7, 
     date: '25/06/2024', 
-    description: 'Explore the astrological factors influencing the birth of a son, known as Putra Parapti in Vedic astrology.' 
+    description: 'Putra Parapti: Understanding Astrology and the Birth of a Son.' 
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ const blogPostsData = [
     slug: "vastu-for-the-kitchen-designing-the-heart-of-your-home",
     image: blog9,
     date: '22/06/2024',
-    description: 'Learn how to design your kitchen according to Vastu Shastra principles to create a harmonious and prosperous living environment.',
+    description: 'Kitchen Vastu: Creating Harmony in the Heart of Your Home.',
     content: 'Content of the blog post...'
   },
   {
@@ -105,7 +105,7 @@ const blogPostsData = [
     slug: "vastu-for-career-success-designing-your-home-office",
     image: blog10,
     date: '21/06/2024',
-    description: 'Learn how to design your home office according to Vastu Shastra principles to enhance your career success and productivity.',
+    description: 'Home Office Vastu: Tips for Career Success.',
     content:""
   },
   {
@@ -113,7 +113,7 @@ const blogPostsData = [
     slug: "vastu-shastra-understanding-orientation-and-directions",
     image: blog11,
     date: '2024-06-21',
-    description: 'Explore the principles of Vastu Shastra regarding orientation and directions, and their impact on well-being and prosperity.',
+    description: 'Vastu Shastra: Exploring Orientation and Directions.',
     content: ""
   },
   {
