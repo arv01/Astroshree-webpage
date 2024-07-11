@@ -25,7 +25,9 @@ import blog19 from "../../../public/Assets/planets-horoscopes.jpg";
 import blog20 from "../../../public/Assets/saturn-return-image.jpg";
 import blog21 from "../../../public/Assets/karma-destiny-image.jpg";
 import blog22 from "../../../public/Assets/astrology-in-everyday-life.jpg";
-
+import blog23 from "../../../public/Assets/zodiac-journey.jpg";
+import blog24 from "../../../public/Assets/starry-wisdom.jpg";
+import blog25 from "../../../public/Assets/zodiac-diaries.jpg";
 
 
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
@@ -201,6 +203,30 @@ const blogPostsData = [
   date: '2024-07-08',
   description: 'Explore practical ways astrology can enrich daily life, from decision-making to personal growth, and how understanding cosmic influences can provide valuable insights.',
   content: 'Astrology in Everyday Life: Practical Applications and Insights'
+},
+{
+  id: 23,
+  slug: "unlocking-the-mysteries-of-the-zodiac-a-journey-through-the-stars",
+  image: blog23, // Placeholder for your image import or URL
+  date: '2024-07-10',
+  description: 'Embark on a journey through the stars as we explore the mysteries of the Zodiac. Discover the influence of zodiac signs on personality, life paths, and relationships.',
+  content: 'Unlocking the Mysteries of the Zodiac: A Journey Through the Stars'
+},
+{
+  id: 24,
+  slug: "starry-wisdom-how-your-zodiac-sign-shapes-your-life",
+  image: blog24, // Placeholder for your image import or URL
+  date: '2024-07-11',
+  description: 'Discover how your zodiac sign influences your personality, decisions, and life path. Unveil the wisdom of the stars in shaping your destiny.',
+  content: 'Starry Wisdom: How Your Zodiac Sign Shapes Your Life'
+},
+{
+  id: 25,
+  slug: "the-zodiac-diaries-real-life-experiences-and-horoscope-insights",
+  image: blog25, // Placeholder for your image import or URL
+  date: '2024-07-11',
+  description: 'Delve into real-life experiences and horoscope insights that highlight how the zodiac shapes our daily lives and personal journeys.',
+  content: 'The Zodiac Diaries: Real-Life Experiences and Horoscope Insights'
 }
 ];
 

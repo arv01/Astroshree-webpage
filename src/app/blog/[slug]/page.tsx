@@ -32,6 +32,9 @@ import HealthAstrologyBlogPost from '../HealthAstrologyBlogPost';
 import SaturnReturnBlogPost from '../SaturnReturnBlogPost';
 import KarmaDestinyBlogPost from '../KarmaDestinyBlogPost';
 import AstrologyInEverydayLifePost from '../AstrologyInEverydayLifePost';
+import ZodiacJourneyBlogPost from '../ZodiacJourneyBlogPost';
+import StarryWisdomBlogPost from '../StarryWisdomBlogPost';
+import ZodiacDiariesBlogPost from '../ZodiacDiariesBlogPost';
 
 
 interface Params {
@@ -193,7 +196,25 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                                                                                           <AstrologyInEverydayLifePost/>
                                                                                         </div>
                                                                                         );
-                                                                          
+                                                                                        case "unlocking-the-mysteries-of-the-zodiac-a-journey-through-the-stars":
+                                                                                          return (
+                                                                                            <div>
+                                                                                                <ZodiacJourneyBlogPost/>
+                                                                                              </div>
+                                                                                              );
+                                                                                              case "starry-wisdom-how-your-zodiac-sign-shapes-your-life":
+                                                                                              return (
+                                                                                                <div>
+                                                                                                    <StarryWisdomBlogPost/>
+                                                                                                  </div>
+                                                                                                  );
+                                                                                                  case "the-zodiac-diaries-real-life-experiences-and-horoscope-insights":
+                                                                                                    return (
+                                                                                                      <div>
+                                                                                                          <ZodiacDiariesBlogPost/>
+                                                                                                        </div>
+                                                                                                        );
+                                                                                
 
                                                                 
                                                             
