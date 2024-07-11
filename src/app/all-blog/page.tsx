@@ -121,112 +121,112 @@ const blogPostsData = [
     slug: "understanding-your-birth-chart-basics-of-natal-astrology",
     image: blog12,
     date: '2024-07-06',
-    description: 'Explore the fundamentals of natal astrology and learn how to interpret your birth chart for personal insights and growth.',
-    content: 'Understanding Your Birth Chart: The Basics of Natal Astrology'
+    //description: 'Explore the fundamentals of natal astrology and learn how to interpret your birth chart for personal insights and growth.',
+    description: 'Understanding Your Birth Chart: The Basics of Natal Astrology'
   },
   {
     id: 13,
     slug: "role-of-planets-in-your-horoscope-how-they-affect-your-daily-life",
     image: blog13,
     date: '2024-07-06',
-    description: 'Learn how the planets in your horoscope influence various aspects of your daily life, including personality, behavior, and experiences.',
-    content: 'The Role of Planets in Your Horoscope: How They Affect Your Daily Life'
+    //description: 'Learn how the planets in your horoscope influence various aspects of your daily life, including personality, behavior, and experiences.',
+    description: 'The Role of Planets in Your Horoscope: How They Affect Your Daily Life'
   },
   {
     id: 14,
     slug: "astrological-remedies-using-gemstones-mantras-and-rituals",
     image: blog14,
     date: '2024-07-06',
-    description: 'Discover powerful astrological remedies such as gemstones, mantras, and rituals to enhance various aspects of life and overcome challenges.',
-    content: 'Astrological Remedies: Using Gemstones, Mantras, and Rituals for Better Life'
+    //description: 'Discover powerful astrological remedies such as gemstones, mantras, and rituals to enhance various aspects of life and overcome challenges.',
+    description: 'Astrological Remedies: Using Gemstones, Mantras, and Rituals for Better Life'
   },
   {
     id: 15,
     slug: "career-predictions-choosing-the-right-path-through-astrology",
     image: blog15,
     date: '2024-07-07',
-    description: 'Explore how astrology can guide you in making informed career choices and achieving professional success.',
-    content: 'Career Predictions: Choosing the Right Path Through Astrology'
+   // description: 'Explore how astrology can guide you in making informed career choices and achieving professional success.',
+    description: 'Career Predictions: Choosing the Right Path Through Astrology'
 },
 {
   id: 16,
   slug: "financial-success-and-astrology-best-times-to-invest-and-save",
   image: blog16,
   date: '2024-07-07',
-  description: 'Learn how astrology can help you identify the best times for investing and saving to achieve financial success.',
-  content: 'Financial Success and Astrology: Best Times to Invest and Save'
+  //description: 'Learn how astrology can help you identify the best times for investing and saving to achieve financial success.',
+  description: 'Financial Success and Astrology: Best Times to Invest and Save'
 },
 {
   id: 17,
   slug: "importance-of-12-houses-in-your-horoscope",
   image: blog17,
   date: '2024-07-07',
-  description: 'Explore the significance of the 12 houses in your horoscope and how they influence various aspects of your life.',
-  content: 'The Importance of the 12 Houses in Your Horoscope'
+  //description: 'Explore the significance of the 12 houses in your horoscope and how they influence various aspects of your life.',
+  description: 'The Importance of the 12 Houses in Your Horoscope'
 },
 {
   id: 18,
   slug: "astrology-and-spiritual-growth-finding-your-life-purpose",
   image: blog18,
   date: '2024-07-07',
-  description: 'Explore how astrology can guide you in finding your life purpose and support your journey of spiritual growth and self-discovery.',
-  content: 'Astrology and Spiritual Growth: Finding Your Life Purpose'
+  //description: 'Explore how astrology can guide you in finding your life purpose and support your journey of spiritual growth and self-discovery.',
+  description: 'Astrology and Spiritual Growth: Finding Your Life Purpose'
 },
 {
   id: 19,
   slug: "astrology-and-health-how-planetary-positions-affect-well-being",
   image: blog19,
   date: '2024-07-07',
-  description: 'Learn how the positions of planets in your horoscope can influence your health and well-being, and discover astrological remedies to enhance your vitality.',
-  content: 'Astrology and Health: How Planetary Positions Affect Well-Being'
+  //description: 'Learn how the positions of planets in your horoscope can influence your health and well-being, and discover astrological remedies to enhance your vitality.',
+  description: 'Astrology and Health: How Planetary Positions Affect Well-Being'
 },
 {
   id: 20,
   slug: "the-significance-of-saturn-return-and-life-transformations",
   image: blog20,
   date: '2024-07-07',
-  description: 'Explore the astrological phenomenon of Saturn return and its profound impact on life transitions, personal growth, and maturity.',
-  content: 'The Significance of Saturn Return and Life Transformations'
+  //description: 'Explore the astrological phenomenon of Saturn return and its profound impact on life transitions, personal growth, and maturity.',
+  description: 'The Significance of Saturn Return and Life Transformations'
 },
 {
   id: 21,
   slug: "the-role-of-karma-and-destiny-in-astrology",
   image: blog21,
   date: '2024-07-08',
-  description: 'Explore the concepts of karma and destiny in astrology, their influence on life events, and how understanding them can provide spiritual insights.',
-  content: 'The Role of Karma and Destiny in Astrology'
+  //description: 'Explore the concepts of karma and destiny in astrology, their influence on life events, and how understanding them can provide spiritual insights.',
+  description: 'The Role of Karma and Destiny in Astrology'
 },
 {
   id: 22,
   slug: "astrology-in-everyday-life-practical-applications-and-insights",
   image: blog22, // Placeholder for your image import or URL
   date: '2024-07-08',
-  description: 'Explore practical ways astrology can enrich daily life, from decision-making to personal growth, and how understanding cosmic influences can provide valuable insights.',
-  content: 'Astrology in Everyday Life: Practical Applications and Insights'
+  //description: 'Explore practical ways astrology can enrich daily life, from decision-making to personal growth, and how understanding cosmic influences can provide valuable insights.',
+  description: 'Astrology in Everyday Life: Practical Applications and Insights'
 },
 {
   id: 23,
   slug: "unlocking-the-mysteries-of-the-zodiac-a-journey-through-the-stars",
   image: blog23, // Placeholder for your image import or URL
   date: '2024-07-10',
-  description: 'Embark on a journey through the stars as we explore the mysteries of the Zodiac. Discover the influence of zodiac signs on personality, life paths, and relationships.',
-  content: 'Unlocking the Mysteries of the Zodiac: A Journey Through the Stars'
+  //description: 'Embark on a journey through the stars as we explore the mysteries of the Zodiac. Discover the influence of zodiac signs on personality, life paths, and relationships.',
+  description: 'Unlocking the Mysteries of the Zodiac: A Journey Through the Stars'
 },
 {
   id: 24,
   slug: "starry-wisdom-how-your-zodiac-sign-shapes-your-life",
   image: blog24, // Placeholder for your image import or URL
   date: '2024-07-11',
-  description: 'Discover how your zodiac sign influences your personality, decisions, and life path. Unveil the wisdom of the stars in shaping your destiny.',
-  content: 'Starry Wisdom: How Your Zodiac Sign Shapes Your Life'
+  //description: 'Discover how your zodiac sign influences your personality, decisions, and life path. Unveil the wisdom of the stars in shaping your destiny.',
+  description: 'Starry Wisdom: How Your Zodiac Sign Shapes Your Life'
 },
 {
   id: 25,
   slug: "the-zodiac-diaries-real-life-experiences-and-horoscope-insights",
   image: blog25, // Placeholder for your image import or URL
   date: '2024-07-11',
-  description: 'Delve into real-life experiences and horoscope insights that highlight how the zodiac shapes our daily lives and personal journeys.',
-  content: 'The Zodiac Diaries: Real-Life Experiences and Horoscope Insights'
+  //description: 'Delve into real-life experiences and horoscope insights that highlight how the zodiac shapes our daily lives and personal journeys.',
+  description: 'The Zodiac Diaries: Real-Life Experiences and Horoscope Insights'
 }
 ];
 
