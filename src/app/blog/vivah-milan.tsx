@@ -11,7 +11,7 @@ const MarriageMatchingBlogPost = () => {
                 <meta name="description" content="जानिए कुंडली मिलान, वैवाहिक जीवन की समस्याएं और विवाह के लिए अनुकूल समय के बारे में ज्योतिषीय दृष्टिकोण से।" />
                 <meta name="keywords" content="विवाह मिलान, कुंडली मिलान, वैवाहिक जीवन, विवाह के लिए अनुकूल समय, ज्योतिष, कुंडली, Astroshree" />
                 <meta name="author" content="Astroshree" />
-                <link rel="canonical" href="https://www.astroshree.live/vivah-milan" />
+                <link rel="canonical" href="https://www.astroshree.live/blog/vivah-milan-marriage-matching-kundli-milan-marital-issues-auspicious-time" />
             </Head>
 
             <article>
