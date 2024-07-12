@@ -28,7 +28,7 @@ import blog22 from "../../../public/Assets/astrology-in-everyday-life.jpg";
 import blog23 from "../../../public/Assets/zodiac-journey.jpg";
 import blog24 from "../../../public/Assets/starry-wisdom.jpg";
 import blog25 from "../../../public/Assets/zodiac-diaries.jpg";
-
+import blog26 from "../../../public/Assets/marriage-matching.jpg";
 
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
 import Header from '../Common/Header';
@@ -227,6 +227,13 @@ const blogPostsData = [
   date: '2024-07-11',
   //description: 'Delve into real-life experiences and horoscope insights that highlight how the zodiac shapes our daily lives and personal journeys.',
   description: 'The Zodiac Diaries: Real-Life Experiences and Horoscope Insights'
+},
+{
+  id: 26,
+  slug: "vivah-milan-marriage-matching-kundli-milan-marital-issues-auspicious-time",
+  image: blog26, // Placeholder for your image import or URL
+  date: '2024-07-12',
+  description: 'विवाह मिलान (Marriage Matching): कुंडली मिलान, वैवाहिक जीवन की समस्याएं, विवाह के लिए अनुकूल समय'
 }
 ];
 

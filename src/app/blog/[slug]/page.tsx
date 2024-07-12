@@ -35,6 +35,7 @@ import AstrologyInEverydayLifePost from '../AstrologyInEverydayLifePost';
 import ZodiacJourneyBlogPost from '../ZodiacJourneyBlogPost';
 import StarryWisdomBlogPost from '../StarryWisdomBlogPost';
 import ZodiacDiariesBlogPost from '../ZodiacDiariesBlogPost';
+import MarriageMatchingBlogPost from '../vivah-milan';
 
 
 interface Params {
@@ -212,6 +213,12 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                                                                                                     return (
                                                                                                       <div>
                                                                                                           <ZodiacDiariesBlogPost/>
+                                                                                                        </div>
+                                                                                                        );
+                                                                                                        case "vivah-milan-marriage-matching-kundli-milan-marital-issues-auspicious-time":
+                                                                                                    return (
+                                                                                                      <div>
+                                                                                                          <MarriageMatchingBlogPost/>
                                                                                                         </div>
                                                                                                         );
                                                                                 
