@@ -31,6 +31,7 @@ import blog25 from "../../../public/Assets/zodiac-diaries.jpg";
 import blog26 from "../../../public/Assets/marriage-matching.jpg";
 import blog27 from "../../../public/Assets/palmistry.jpg";
 import blog28 from "../../../public/Assets/life-line.jpg";
+import blog29 from "../../../public/Assets/bedroom-vastu.jpg";
 
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
 import Header from '../Common/Header';
@@ -250,6 +251,13 @@ const blogPostsData = [
   image: blog28, // Placeholder for your image import or URL
   date: '2024-07-12',
   description: "Exploring Your Life Line: What 'Jewan Rekha' Reveals About Your Journey"
+},
+{
+  id: 29,
+  slug: "bedroom-vastu-for-better-sleep",
+  image: blog29, // Placeholder for your image import or URL
+  date: '2024-07-12',
+  description: "Bedroom Vastu for Better Sleep: Harmonizing Your Resting Space"
 }
 ];
 

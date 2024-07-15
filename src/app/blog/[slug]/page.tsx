@@ -38,6 +38,7 @@ import ZodiacDiariesBlogPost from '../ZodiacDiariesBlogPost';
 import MarriageMatchingBlogPost from '../vivah-milan';
 import PalmistryBlogPost from '../PalmistryBlogPost';
 import LifeLineBlogPost from '../LifeLineBlogPost';
+import BedroomVastuBlogPost from '../BedroomVastuBlogPost';
 
 
 interface Params {
@@ -233,6 +234,12 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                                                                                                                 return (
                                                                                                                   <div>
                                                                                                                       <LifeLineBlogPost/>
+                                                                                                                    </div>
+                                                                                                                    );
+                                                                                                                    case "bedroom-vastu-for-better-sleep":
+                                                                                                                return (
+                                                                                                                  <div>
+                                                                                                                      <BedroomVastuBlogPost/>
                                                                                                                     </div>
                                                                                                                     );
                                                                                 

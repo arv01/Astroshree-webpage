@@ -229,6 +229,13 @@ export const blogPostsData = [
       image: "blog28", // Placeholder for your image import or URL
       date: '2024-07-12',
       description: "Exploring Your Life Line: What 'Jewan Rekha' Reveals About Your Journey"
-    }
+    },
+    {
+      id: 30,
+      slug: "bedroom-vastu-for-better-sleep",
+      image: "bedroom-vastu.jpg", // Placeholder for your image import or URL
+      date: '2024-07-15',
+      description: "Bedroom Vastu for Better Sleep: Harmonizing Your Resting Space"
+  }
     // Other blog posts...
   ];
