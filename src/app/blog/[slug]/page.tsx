@@ -39,6 +39,7 @@ import MarriageMatchingBlogPost from '../vivah-milan';
 import PalmistryBlogPost from '../PalmistryBlogPost';
 import LifeLineBlogPost from '../LifeLineBlogPost';
 import BedroomVastuBlogPost from '../BedroomVastuBlogPost';
+import LivingRoomVastuBlogPost from '../LivingRoomVastuBlogPost';
 
 
 interface Params {
@@ -242,6 +243,12 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                                                                                                                       <BedroomVastuBlogPost/>
                                                                                                                     </div>
                                                                                                                     );
+                                                                                                                    case "vastu-tips-for-a-harmonious-living-room":
+                                                                                                                      return (
+                                                                                                                        <div>
+                                                                                                                            <LivingRoomVastuBlogPost/>
+                                                                                                                          </div>
+                                                                                                                          );
                                                                                 
                                                                                                               
 

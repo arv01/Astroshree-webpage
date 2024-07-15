@@ -236,6 +236,13 @@ export const blogPostsData = [
       image: "bedroom-vastu.jpg", // Placeholder for your image import or URL
       date: '2024-07-15',
       description: "Bedroom Vastu for Better Sleep: Harmonizing Your Resting Space"
-  }
+  },
+  {
+    id: 31,
+    slug: "vastu-tips-for-a-harmonious-living-room",
+    image: "livingRoomVastuImage",
+    date: '2024-07-15',
+    description: "Vastu Tips for a Harmonious Living Room: Creating a Space of Peace and Positivity"
+}
     // Other blog posts...
   ];

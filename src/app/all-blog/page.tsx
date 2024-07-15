@@ -32,6 +32,7 @@ import blog26 from "../../../public/Assets/marriage-matching.jpg";
 import blog27 from "../../../public/Assets/palmistry.jpg";
 import blog28 from "../../../public/Assets/life-line.jpg";
 import blog29 from "../../../public/Assets/bedroom-vastu.jpg";
+import blog30 from "../../../public/Assets/living-room-vastu.jpg";
 
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
 import Header from '../Common/Header';
@@ -258,6 +259,12 @@ const blogPostsData = [
   image: blog29, // Placeholder for your image import or URL
   date: '2024-07-12',
   description: "Bedroom Vastu for Better Sleep: Harmonizing Your Resting Space"
+},{
+  id: 31,
+  slug: "vastu-tips-for-a-harmonious-living-room",
+  image: blog30,
+  date: '2024-07-15',
+  description: "Vastu Tips for a Harmonious Living Room: Creating a Space of Peace and Positivity"
 }
 ];
 
