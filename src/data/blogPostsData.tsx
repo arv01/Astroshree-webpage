@@ -216,6 +216,19 @@ export const blogPostsData = [
       image: "blog26", // Placeholder for your image import or URL
       date: '2024-06-28',
       description: 'विवाह मिलान (Marriage Matching): कुंडली मिलान, वैवाहिक जीवन की समस्याएं, विवाह के लिए अनुकूल समय'
+    },{
+      id: 28,
+      slug: "navigating-lifes-path-understanding-palmistry-and-your-unique-journey",
+      image: "palmistry.jpg", // Placeholder for your image import or URL
+      date: '2024-07-12',
+      description: "Navigating Life's Path: Understanding Palmistry and Your Unique Journey"
+    },
+    {
+      id: 29,
+      slug: "exploring-your-life-line-what-jewan-rekha-reveals-about-your-journey",
+      image: "blog28", // Placeholder for your image import or URL
+      date: '2024-07-12',
+      description: "Exploring Your Life Line: What 'Jewan Rekha' Reveals About Your Journey"
     }
     // Other blog posts...
   ];

@@ -36,6 +36,8 @@ import ZodiacJourneyBlogPost from '../ZodiacJourneyBlogPost';
 import StarryWisdomBlogPost from '../StarryWisdomBlogPost';
 import ZodiacDiariesBlogPost from '../ZodiacDiariesBlogPost';
 import MarriageMatchingBlogPost from '../vivah-milan';
+import PalmistryBlogPost from '../PalmistryBlogPost';
+import LifeLineBlogPost from '../LifeLineBlogPost';
 
 
 interface Params {
@@ -221,7 +223,20 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                                                                                                           <MarriageMatchingBlogPost/>
                                                                                                         </div>
                                                                                                         );
+                                                                                                        case "navigating-lifes-path-understanding-palmistry-and-your-unique-journey":
+                                                                                                          return (
+                                                                                                            <div>
+                                                                                                                <PalmistryBlogPost/>
+                                                                                                              </div>
+                                                                                                              );
+                                                                                                              case "exploring-your-life-line-what-jewan-rekha-reveals-about-your-journey":
+                                                                                                                return (
+                                                                                                                  <div>
+                                                                                                                      <LifeLineBlogPost/>
+                                                                                                                    </div>
+                                                                                                                    );
                                                                                 
+                                                                                                              
 
                                                                 
                                                             

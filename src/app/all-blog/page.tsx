@@ -29,6 +29,8 @@ import blog23 from "../../../public/Assets/zodiac-journey.jpg";
 import blog24 from "../../../public/Assets/starry-wisdom.jpg";
 import blog25 from "../../../public/Assets/zodiac-diaries.jpg";
 import blog26 from "../../../public/Assets/marriage-matching.jpg";
+import blog27 from "../../../public/Assets/palmistry.jpg";
+import blog28 from "../../../public/Assets/life-line.jpg";
 
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
 import Header from '../Common/Header';
@@ -234,6 +236,20 @@ const blogPostsData = [
   image: blog26, // Placeholder for your image import or URL
   date: '2024-07-12',
   description: 'विवाह मिलान (Marriage Matching): कुंडली मिलान, वैवाहिक जीवन की समस्याएं, विवाह के लिए अनुकूल समय'
+},
+{
+  id: 27,
+  slug: "navigating-lifes-path-understanding-palmistry-and-your-unique-journey",
+  image: blog27, // Placeholder for your image import or URL
+  date: '2024-07-12',
+  description: "Navigating Life's Path: Understanding Palmistry and Your Unique Journey"
+},
+{
+  id: 28,
+  slug: "exploring-your-life-line-what-jewan-rekha-reveals-about-your-journey",
+  image: blog28, // Placeholder for your image import or URL
+  date: '2024-07-12',
+  description: "Exploring Your Life Line: What 'Jewan Rekha' Reveals About Your Journey"
 }
 ];
 
