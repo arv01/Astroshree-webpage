@@ -33,6 +33,7 @@ import blog27 from "../../../public/Assets/palmistry.jpg";
 import blog28 from "../../../public/Assets/life-line.jpg";
 import blog29 from "../../../public/Assets/bedroom-vastu.jpg";
 import blog30 from "../../../public/Assets/living-room-vastu.jpg";
+import blog31 from "../../../public/Assets/ganesh-puja.jpg";
 
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
 import Header from '../Common/Header';
@@ -265,6 +266,13 @@ const blogPostsData = [
   image: blog30,
   date: '2024-07-15',
   description: "Vastu Tips for a Harmonious Living Room: Creating a Space of Peace and Positivity"
+}
+,{
+  id: 28,
+  slug: "ganesh-puja-rituals-benefits-new-home",
+  image: blog31, // Placeholder for your image import or URL
+  date: '2024-07-16',
+  description: "Ganesh Puja: Rituals and Benefits for Your New Home"
 }
 ];
 

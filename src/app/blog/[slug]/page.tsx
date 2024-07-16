@@ -40,6 +40,7 @@ import PalmistryBlogPost from '../PalmistryBlogPost';
 import LifeLineBlogPost from '../LifeLineBlogPost';
 import BedroomVastuBlogPost from '../BedroomVastuBlogPost';
 import LivingRoomVastuBlogPost from '../LivingRoomVastuBlogPost';
+import GaneshPujaBlogPost from '../GaneshPujaBlogPost';
 
 
 interface Params {
@@ -247,6 +248,12 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                                                                                                                       return (
                                                                                                                         <div>
                                                                                                                             <LivingRoomVastuBlogPost/>
+                                                                                                                          </div>
+                                                                                                                          );
+                                                                                                                          case "ganesh-puja-rituals-benefits-new-home":
+                                                                                                                      return (
+                                                                                                                        <div>
+                                                                                                                            <GaneshPujaBlogPost/>
                                                                                                                           </div>
                                                                                                                           );
                                                                                 

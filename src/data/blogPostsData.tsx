@@ -243,6 +243,13 @@ export const blogPostsData = [
     image: "livingRoomVastuImage",
     date: '2024-07-15',
     description: "Vastu Tips for a Harmonious Living Room: Creating a Space of Peace and Positivity"
+},
+ {
+  id: 32,
+  slug: "ganesh-puja-rituals-benefits-new-home",
+  image: "blog28", // Placeholder for your image import or URL
+  date: '2024-07-16',
+  description: "Ganesh Puja: Rituals and Benefits for Your New Home"
 }
     // Other blog posts...
   ];
