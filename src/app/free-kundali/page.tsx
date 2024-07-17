@@ -35,7 +35,7 @@ const KundaliPage = () => {
               Are you searching for a comprehensive analysis of your birth chart? Look no further! At AstroShree, we offer a detailed and accurate Kundli analysis prepared by expert astrologers. Our free Kundli service provides insights into various aspects of your life, including career, love life, marriage, business, and more.
             </p>
             <p className={styles.paragraph}>
-              Our team of experienced astrologers meticulously analyzes your birth chart to provide you with personalized predictions and guidance. Whether you're seeking clarity on your current circumstances or looking to make informed decisions about your future, our free Kundli service is here to help.
+              Our team of experienced astrologers meticulously analyzes your birth chart to provide you with personalized predictions and guidance. Whether you&apos;re seeking clarity on your current circumstances or looking to make informed decisions about your future, our free Kundli service is here to help.
             </p>
             <p className={styles.paragraph}>
               Our Kundli analysis considers the movement of all planets in your life, from your birth to 100 years into the future. This comprehensive approach enables us to uncover the underlying factors shaping your life and anticipate future events with accuracy.
