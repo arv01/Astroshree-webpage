@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
+import Head from 'next/head';
 import logo from "../../../../public/Assets/astroshree.svg";
 import styles from '../horoscopePage.module.css';
 import Header from '@/app/Common/Header';
@@ -235,7 +236,11 @@ const HoroscopePage = async ({ params }: { params: { type: HoroscopeType } }) =>
   const { title, subTitle,intro, description } = horoscopeIntros[type];
   return (
     <div>
-    <Header />
+    <Head>
+        <title>{title} - Daily Horoscope | AstroShree</title>
+        <meta name="description" content={description} />
+        <meta name="keywords" content="horoscope, daily horoscope, zodiac signs, astrology, AstroShree" />
+      </Head>
     <div className={styles.pageContainer}>
       <div className="mb-8">
       <div className="flex flex-col items-center text-center mt-8 mb-8">
