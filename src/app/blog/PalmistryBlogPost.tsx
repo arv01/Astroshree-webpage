@@ -5,8 +5,8 @@ import blogImage from '../../../public/Assets/palmistry.jpg'; // Adjust the imag
 
 const PalmistryBlogPost = () => {
     return (
-        <div className={styles.container}>
-            <Head>
+        <>
+        <Head>
                 <title>Navigating Life&apos;s Path: Understanding Palmistry and Your Unique Journey</title>
                 <meta name="description" content="Explore the ancient art of palmistry and gain insights into your unique life journey through a spiritual perspective." />
                 <meta name="keywords" content="palmistry, life journey, spiritual insights, palm reading, fortune telling" />
@@ -14,6 +14,8 @@ const PalmistryBlogPost = () => {
                 <link rel="canonical" href="https://www.astroshree.live/blog/navigating-lifes-path-understanding-palmistry" />
             </Head>
 
+         <div className={styles.container}>
+            
             <article>
                 <h1 className={styles.title}>
                     Navigating Life&apos;s Path: Understanding Palmistry and Your Unique Journey
@@ -88,6 +90,8 @@ const PalmistryBlogPost = () => {
                 </div>
             </article>
         </div>
+        </>
+       
     );
 };
 

@@ -5,8 +5,8 @@ import livingRoomVastuImage from '../../../public/Assets/living-room-vastu.jpg';
 
 const LivingRoomVastuBlogPost = () => {
     return (
-        <div className={styles.container}>
-            <Head>
+        <>
+         <Head>
                 <title>Vastu Tips for a Harmonious Living Room: Creating a Space of Peace and Positivity</title>
                 <meta name="description" content="Discover Vastu tips for your living room to create a harmonious space filled with peace and positivity. Learn how to arrange your living room for optimal energy flow." />
                 <meta name="keywords" content="Vastu, living room Vastu, harmonious living room, home Vastu, positive energy, Vastu tips" />
@@ -14,6 +14,8 @@ const LivingRoomVastuBlogPost = () => {
                 <link rel="canonical" href="https://www.astroshree.live/blog/vastu-tips-for-a-harmonious-living-room" />
             </Head>
 
+        <div className={styles.container}>
+           
             <article>
                 <h1 className={styles.title}>
                     Vastu Tips for a Harmonious Living Room: Creating a Space of Peace and Positivity
@@ -85,6 +87,8 @@ const LivingRoomVastuBlogPost = () => {
                 </div>
             </article>
         </div>
+        </>
+        
     );
 };
 

@@ -5,15 +5,15 @@ import blogImage from '../../../public/Assets/life-line.jpg'; // Adjust the imag
 
 const LifeLineBlogPost = () => {
     return (
-        <div className={styles.container}>
-            <Head>
+        <>
+        <Head>
                 <title>Exploring Your Life Line: What &apos;Jewan Rekha&apos; Reveals About Your Journey</title>
                 <meta name="description" content="Discover the significance of &apos;Jewan Rekha&apos; (life line) in palmistry and what it can reveal about your unique journey." />
-                <meta name="keywords" content="&apos;Jewan Rekha&apos;, life line, palmistry, palm reading, hand analysis, journey of life, personal development" />
+                <meta name="keywords" content="Jewan Rekha, life line, palmistry, palm reading, hand analysis, journey of life, personal development" />
                 <meta name="author" content="Astroshree" />
                 <link rel="canonical" href="https://www.astroshree.live/blog/exploring-your-life-line-jewan-rekha-palmistry" />
             </Head>
-
+         <div className={styles.container}>
             <article>
                 <h1 className={styles.title}>
                     Exploring Your Life Line: What &apos;Jewan Rekha&apos; Reveals About Your Journey
@@ -82,6 +82,8 @@ const LifeLineBlogPost = () => {
                 </div>
             </article>
         </div>
+        </>
+       
     );
 };
 
