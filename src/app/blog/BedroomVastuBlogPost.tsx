@@ -11,7 +11,7 @@ const BedroomVastuBlogPost = () => {
                 <meta name="description" content="Discover Vastu tips for your bedroom to enhance sleep quality and create a peaceful environment. Learn how to arrange your bedroom for better rest and relaxation." />
                 <meta name="keywords" content="Vastu, bedroom Vastu, better sleep, home Vastu, peaceful sleep, Vastu tips" />
                 <meta name="author" content="Astroshree" />
-                <link rel="canonical" href="https://www.astroshree.live/blog/bedroom-vastu-for-better-sleep" />
+                
             </Head>
 
             <article>

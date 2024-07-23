@@ -11,7 +11,7 @@ const LivingRoomVastuBlogPost = () => {
                 <meta name="description" content="Discover Vastu tips for your living room to create a harmonious space filled with peace and positivity. Learn how to arrange your living room for optimal energy flow." />
                 <meta name="keywords" content="Vastu, living room Vastu, harmonious living room, home Vastu, positive energy, Vastu tips" />
                 <meta name="author" content="Astroshree" />
-                <link rel="canonical" href="https://www.astroshree.live/blog/vastu-tips-for-a-harmonious-living-room" />
+                
             </Head>
 
         <div className={styles.container}>

@@ -11,7 +11,6 @@ const GaneshPujaBlogPost = () => {
                 <meta name="description" content="Learn the rituals and benefits of performing Ganesh Puja at your new home. Discover the steps involved and the significance of this auspicious ceremony." />
                 <meta name="keywords" content="Ganesh Puja, new home, rituals, benefits, Ganapati, Astroshree" />
                 <meta name="author" content="Astroshree" />
-                <link rel="canonical" href="https://www.astroshree.live/blog/ganesh-puja-rituals-benefits-new-home" />
             </Head>
 
             <article>

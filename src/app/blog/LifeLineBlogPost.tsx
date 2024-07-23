@@ -11,7 +11,7 @@ const LifeLineBlogPost = () => {
                 <meta name="description" content="Discover the significance of &apos;Jewan Rekha&apos; (life line) in palmistry and what it can reveal about your unique journey." />
                 <meta name="keywords" content="Jewan Rekha, life line, palmistry, palm reading, hand analysis, journey of life, personal development" />
                 <meta name="author" content="Astroshree" />
-                <link rel="canonical" href="https://www.astroshree.live/blog/exploring-your-life-line-jewan-rekha-palmistry" />
+               
             </Head>
          <div className={styles.container}>
             <article>
