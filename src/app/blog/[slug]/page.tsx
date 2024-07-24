@@ -41,6 +41,7 @@ import LifeLineBlogPost from '../LifeLineBlogPost';
 import BedroomVastuBlogPost from '../BedroomVastuBlogPost';
 import LivingRoomVastuBlogPost from '../LivingRoomVastuBlogPost';
 import GaneshPujaBlogPost from '../GaneshPujaBlogPost';
+import GaneshSpecialBlogPost from '../GaneshSpecialBlogPost';
 
 
 interface Params {
@@ -251,11 +252,17 @@ const BlogDetailPage = ({ params }: { params: Params }) => {
                                                                                                                           </div>
                                                                                                                           );
                                                                                                                           case "ganesh-puja-rituals-benefits-new-home":
-                                                                                                                      return (
-                                                                                                                        <div>
-                                                                                                                            <GaneshPujaBlogPost/>
-                                                                                                                          </div>
-                                                                                                                          );
+                                                                                                                          return (
+                                                                                                                            <div>
+                                                                                                                                <GaneshPujaBlogPost/>
+                                                                                                                              </div>
+                                                                                                                              );
+                                                                                                                              case "shree-ganesh-special":
+                                                                                                                              return (
+                                                                                                                                <div>
+                                                                                                                                    <GaneshSpecialBlogPost/>
+                                                                                                                                  </div>
+                                                                                                                                  );
                                                                                 
                                                                                                               
 

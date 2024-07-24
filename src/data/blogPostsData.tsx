@@ -250,6 +250,13 @@ export const blogPostsData = [
   image: "blog28", // Placeholder for your image import or URL
   date: '2024-07-16',
   description: "Ganesh Puja: Rituals and Benefits for Your New Home"
+},
+{
+  id: 29,
+  slug: "shree-ganesh-special",
+  image: "blog32", // Placeholder for your image import or URL
+  date: '2024-07-24',
+  description: "|| श्री गणेश स्पेशल || जानें गणेश चतुर्थी की पूजा विधि और श्री गणेश जी की कहानियाँ।"
 }
     // Other blog posts...
   ];

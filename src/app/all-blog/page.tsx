@@ -34,7 +34,7 @@ import blog28 from "../../../public/Assets/life-line.jpg";
 import blog29 from "../../../public/Assets/bedroom-vastu.jpg";
 import blog30 from "../../../public/Assets/living-room-vastu.jpg";
 import blog31 from "../../../public/Assets/ganesh-puja.jpg";
-
+import blog32 from "../../../public/Assets/ganesh_sp.jpg";
 import { useRouter } from 'next/navigation'; // Import the useRouter hook
 import Header from '../Common/Header';
 import Footer from '../Common/Footer/Footer';
@@ -273,6 +273,13 @@ const blogPostsData = [
   image: blog31, // Placeholder for your image import or URL
   date: '2024-07-16',
   description: "Ganesh Puja: Rituals and Benefits for Your New Home"
+},
+{
+  id: 29,
+  slug: "shree-ganesh-special",
+  image: blog32, // Placeholder for your image import or URL
+  date: '2024-07-24',
+  description: "|| श्री गणेश स्पेशल || जानें गणेश चतुर्थी की पूजा विधि और श्री गणेश जी की कहानियाँ।"
 }
 ];
 
